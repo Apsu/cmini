@@ -9,11 +9,12 @@ from util import parser, memory
 
 FINGERS = ['LI', 'LM', 'LR', 'LP', 'RI', 'RM', 'RR', 'RP', 'LT', 'RT', 'TB']
 FINGER_ALIASES = {
-    'index': {'LI', 'RI'},
+    'index':  {'LI', 'RI'},
     'middle': {'LM', 'RM'},
-    'ring': {'LR', 'RR'},
-    'pinky': {'LP', 'RP'},
-    'thumb': {'LT', 'RT', 'TB'},
+    'ring':   {'LR', 'RR'},
+    'pinky':  {'LP', 'RP'},
+    'thumb':  {'LT', 'RT', 'TB'},
+    'rt': {'RT', 'TB'},
     'lh': {'LI', 'LM', 'LR', 'LP', 'LT'},
     'rh': {'RI', 'RM', 'RR', 'RP', 'RT', 'TB'},
 }
