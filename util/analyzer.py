@@ -11,6 +11,8 @@ def use(ll: Layout, grams: Dict[str, str]):
     fingers = {}
     
     for gram, count in grams.items():
+        gram = gram.lower()
+        
         if gram not in ll.keys:
             continue
 
@@ -36,6 +38,8 @@ def trigrams(ll: Layout, grams: Dict[str, int]):
     fingers = {x: ll.keys[x].finger for x in ll.keys}
 
     for gram, count in grams.items():
+        gram = gram.lower()
+        
         if ' ' in gram:
             continue
 
