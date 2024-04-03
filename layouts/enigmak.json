@@ -21,14 +21,14 @@
         "g": {
             "row": 0,
             "col": 3,
-            "finger": "LI"
+            "finger": "LM"
         },
         "v": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "q": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -111,12 +111,12 @@
         "x": {
             "row": 2,
             "col": 0,
-            "finger": "LR"
+            "finger": "LP"
         },
-        "q": {
+        "j": {
             "row": 2,
             "col": 1,
-            "finger": "LM"
+            "finger": "LR"
         },
         "w": {
             "row": 2,
