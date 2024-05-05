@@ -8,7 +8,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "w": {
+        "c": {
             "row": 0,
             "col": 1,
             "finger": "LR"
@@ -108,7 +108,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "c": {
+        "w": {
             "row": 2,
             "col": 1,
             "finger": "LR"
@@ -143,12 +143,12 @@
             "col": 7,
             "finger": "RM"
         },
-        ";": {
+        "_": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        "_": {
+        "=": {
             "row": 2,
             "col": 9,
             "finger": "RP"
@@ -163,6 +163,5 @@
             "col": 1,
             "finger": "RT"
         }
-    },
-    "free": []
+    }
 }

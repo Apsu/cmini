@@ -1,0 +1,157 @@
+{
+    "name": "vestnik-herald",
+    "user": 224547424105005056,
+    "board": "ortho",
+    "keys": {
+        "\u0446": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u0434": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u0440": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u0433": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u0445": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u0444": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u043f": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u0430": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u044f": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u044d": {
+            "row": 0,
+            "col": 9,
+            "finger": "RP"
+        },
+        "\u0441": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u0442": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u043d": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u043a": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u0431": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u044c": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u0432": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u043e": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u0435": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u0438": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "\u0448": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u0437": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u043b": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u043c": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u0447": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u0436": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u0439": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u044b": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u0443": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u044e": {
+            "row": 2,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}

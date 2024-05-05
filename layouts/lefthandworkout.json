@@ -1,0 +1,157 @@
+{
+    "name": "lefthandworkout",
+    "user": 616446046549311508,
+    "board": "ortho",
+    "keys": {
+        "e": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "n": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "s": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "r": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "h": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "p": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "x": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "v": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        ",": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "f": {
+            "row": 0,
+            "col": 9,
+            "finger": "RP"
+        },
+        "t": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "o": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "d": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "u": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "m": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "q": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "j": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        ";": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "w": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "/": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "a": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "i": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "k": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "l": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "c": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        ".": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        "y": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "g": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        },
+        "z": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
+        },
+        "b": {
+            "row": 2,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}

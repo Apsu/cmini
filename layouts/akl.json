@@ -1,0 +1,57 @@
+{
+    "name": "akl",
+    "user": 269222652042936341,
+    "board": "ortho",
+    "keys": {
+        "b": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "e": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "a": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "k": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "l": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u0d1f": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "u": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "c": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u043a": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "s": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}

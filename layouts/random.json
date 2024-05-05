@@ -1,0 +1,37 @@
+{
+    "name": "random",
+    "user": 252155920157507584,
+    "board": "ortho",
+    "keys": {
+        "r": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "a": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "n": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "d": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "o": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "m": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        }
+    }
+}

@@ -97,8 +97,7 @@ def cache_main_original():
 if __name__ == "__main__":
     import sys
     if len(sys.argv) < 2:
-        # cache_main_original()
+        cache_main_original()
         # cache_main_new()
-        cache_main_new()
     else:
         print(get(sys.argv[1], sys.argv[2]))
