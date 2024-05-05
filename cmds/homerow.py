@@ -15,13 +15,8 @@ def exec(message: Message):
         keys = sorted(ll.keys.items(), key=lambda k: (k[1].row, k[1].col))
         homerow = ''.join(k for k,v in keys if v.row == 1)
 
-        if row.startswith('"') and row.endswith('"'):
-            pattern = re.compile(row.strip('"').replace('.', '\.').replace('_', '.'))
-            if pattern.search(homerow) or pattern.search("".join(reversed(homerow))):
-                lines.append(ll.name)
-        else:
-            if all(i in homerow for i in row):
-                lines.append(ll.name)
+        if is_homerow(row, homerow):
+            lines.append(ll.name)
 
     is_dm = message.channel.type == ChannelType.private
 
@@ -49,3 +44,11 @@ def use():
 
 def desc():
     return 'search for layouts with a particular string in homerow'
+
+
+def is_homerow(row: str, homerow: str) -> bool:
+    if row.startswith('"') and row.endswith('"'):
+        pattern = re.compile(row.strip('"').replace('.', '\.').replace('_', '.'))
+        return bool(pattern.search(homerow) or pattern.search("".join(reversed(homerow))))
+    else:
+        return all(i in homerow for i in row)
