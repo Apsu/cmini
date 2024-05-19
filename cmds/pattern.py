@@ -1,49 +1,66 @@
 from discord import Message
 from util import corpora, memory, parser
+from util.analyzer import TABLE
+import re
+
+RESTRICTED = True
+MAX_NGRAM = len(corpora.NGRAMS)
 
 def exec(message: Message):
     args = parser.get_args(message)
-    name, query = args[0], args[1:]
-    ntype = len(query[0]) if len(query) > 0 else None
+    name = args[0] if len(args) > 0 else ''
+    query = [arg.upper() for arg in args[1:]]
 
     if not name:
-        return "Please provide a layout"
-
-    if not query or ntype != 2:
-        return "Please provide valid finger values (e.g., LI)"
-
-    if len(query) > len(corpora.NGRAMS):
-        return "Please provide no more than 3 finger values"
-
+        return "Error: Please provide a layout name"
+    
     ll = memory.find(name)
     if not ll:
         return f'Error: couldn\'t find any layout named `{name}`'
     
-    allowed_fingers = set(["LI", "LM", "LR", "LP", "RI", "RM", "RR", "RP", "LT", "RT", "TB"])
+    allowed_fingers = ["LI", "LM", "LR", "LP", "RI", "RM", "RR", "RP", "LT", "RT", "TB", "RH", "LH", "__"]
 
-    if not all(finger in allowed_fingers for finger in query):
-        return "Please provide valid finger values (e.g., LI)"
+    if not query:
+        return f'```\nSupported finger values:\n{" ".join(allowed_fingers)}```'
+
+    for finger in query:
+        if finger not in allowed_fingers:
+            return '\n'.join([
+            f'```{finger} is not a supported finger values',
+            f'Supported finger values:',
+            f'{" ".join(allowed_fingers)}',
+            '```'
+        ])
+
+    if len(query) > MAX_NGRAM:
+        return f'Please provide no more than {MAX_NGRAM} finger values'
     
-    ngrams = corpora.ngrams(len(query), id=message.author.id)
-    freq = 0
+    ngrams = {ngram: count for ngram, count in corpora.ngrams(len(query), id=message.author.id).items()}
     total = sum(ngrams.values())
-    lines = []
-    
+    freq = 0
+    lines = {}
+
+    fingers = '-'.join(query)
+    pattern = re.compile(fingers.replace('_', '.').replace('H', '.'))
+
     for gram, count in ngrams.items():
         gram = gram.lower()
+        
         if len(set(gram)) != len(gram):
             continue
 
-        fingers = '-'.join(query)
         key = '-'.join([ll.keys[x].finger for x in gram if x in ll.keys])
         
-        if fingers in key:
+        if pattern.search(key):
             freq += count
-            lines.append(f'{gram:<5} {count / total:.3%}')
+            lines[gram] = lines.get(gram, 0) + count
+            
+    lines = sorted(lines.items(), key=lambda x: x[1], reverse=True)[:10]
+    lines = [f'{gram:<5} {count / total:.3%}' for gram, count in lines]
 
     return '\n'.join([
         '```',
-        f'Top 10 {ll.name} Patterns for {fingers}:',
+        f'Top {ll.name} Patterns for {fingers}{f" ({TABLE[fingers]})" if fingers in TABLE and len(query) == 3 else ""}:',
         *lines[:10],
         f'Total {freq / total:.3%}',
         '```'

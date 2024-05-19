@@ -9,18 +9,25 @@ def exec(message: Message):
     bigrams = corpora.ngrams(2, id=message.author.id)
     total = sum(bigrams.values())
 
-    lines = []
+    sfbs = {}
     for gram, count in bigrams.items():
         gram = gram.lower()
+
         if len(set(gram)) != len(gram): # ignore repeats
             continue
 
         fingers = [ll.keys[x].finger for x in gram if x in ll.keys]
 
         if len(set(fingers)) != len(fingers):
-            lines.append(f'{gram:<5} {count / total:.3%}')
+            sfbs[gram] = sfbs.get(gram, 0) + count
 
-    return '\n'.join(['```', f'Top 10 {ll.name} SFBs:'] + lines[:10] + ['```'])
+    g_total = sum(count for (_, count) in sfbs.items())
+
+    res = []
+    for ngram, count in sfbs.items():
+        res.append(f'{ngram:<6} {count / total:.3%}')
+
+    return '\n'.join(['```', f'Top 10 {ll.name} SFBs:'] + res[:10] + [f'Total: {g_total / total:.3%}'] + ['```'])
 
 def use():
     return 'sfbs [layout name]'
