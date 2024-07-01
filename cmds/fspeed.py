@@ -12,20 +12,19 @@ FINGERS = ('LP', 'LR', 'LM', 'LI', 'RI', 'RM', 'RR', 'RP')
 
 def exec(message: Message):
     id = message.author.id
-    kwargs = parser.get_kwargs(message, str,
-                               stagger=bool, lateral=str, sfb=str, dsfb=str, sfs=str, key_travel=str,
-                               kps=list, weights=list)
+    kwargs, err = parser.get_kwargs(message, str,
+                                    stagger=bool, lateral=str, sfb=str, dsfb=str, sfs=str, key_travel=str,
+                                    kps=list, weights=list)
+    if err is not None:
+        return (f'{str(err)}\n'
+                f'```\n'
+                f'{use()}\n'
+                f'```')
+
     ll_name: str = kwargs['args']
 
     if not ll_name:
-        return ('```\n'
-                'fspeed [layout name] [--kwargs]\n'
-                'see the finger speed of a layout\n'
-                'Options:\n'
-                '--stagger\n'
-                '--[lateral, sfb, dsfb, key_travel] [num]\n'
-                '--kps [num...]\n'
-                '```')
+        return f'```\n{use()}\n```'
 
     kwargs['dsfb'] = kwargs['dsfb'] or kwargs['sfs']
     kwargs['kps'] = kwargs['kps'] or kwargs['weights']
@@ -73,8 +72,8 @@ class FSpeed:
     dsfb: float = 0.5
     key_travel: float = 0.01
     kps: dict[str, float] = field(default_factory=lambda:
-                                  dict(zip(FINGERS,
-                                       (1.5, 3.6, 4.8, 5.5, 5.5, 4.8, 3.6, 1.5))))
+    dict(zip(FINGERS,
+             (1.5, 3.6, 4.8, 5.5, 5.5, 4.8, 3.6, 1.5))))
 
     def fingerspeed(self, ll: Layout, id: int) -> tuple[dict[str, float], dict[str, float]]:
         bigrams: dict[str, float] = corpora.ngrams(2, id=id)
@@ -102,8 +101,8 @@ class FSpeed:
             dsfb_speeds[p1.finger] += freq * dist
 
         speeds: dict[str, float] = {finger:
-                                    self.sfb * sfb_speeds[finger] / bigram_total +
-                                    self.dsfb * dsfb_speeds[finger] / skipgram_total
+                                        self.sfb * sfb_speeds[finger] / bigram_total +
+                                        self.dsfb * dsfb_speeds[finger] / skipgram_total
                                     for finger in FINGERS}
         unweighted_speeds = {finger: speed * 800 for finger, speed in speeds.items()}
         weighted_speeds = {finger: speed / self.kps[finger] for finger, speed in unweighted_speeds.items()}
@@ -116,6 +115,7 @@ class FSpeed:
         y = r1 - r2
         return self.lateral * x * x + y * y if weighted else math.sqrt(x * x + y * y)
 
+
 def staggered_x(c: int, r: int) -> float:
     if r == 0:
         return c - 0.25
@@ -123,19 +123,28 @@ def staggered_x(c: int, r: int) -> float:
         return c + 0.5
     return c
 
+
 def parse_number(s: str) -> float:
     try:
         return float(s)
     except ValueError:
         raise ValueError(f"Error: Could not convert '{s}' into a number")
 
+
 def parse_kps(s: list[str]) -> dict[str, float]:
     if len(s) != 8:
         raise ValueError(f'Error: length of kps is not 8')
     return dict(zip(FINGERS, (parse_number(item) for item in s)))
 
+
 def use():
-    return 'fspeed [layout name] [--kwargs]'
+    return ('fspeed [layout name] [--kwargs]\n'
+            'see the finger speed of a layout\n'
+            'Options:\n'
+            '--stagger\n'
+            '--[lateral, sfb, dsfb, key_travel] [num]\n'
+            '--kps [num...]\n')
+
 
 def desc():
     return 'see the finger speed of a layout'
