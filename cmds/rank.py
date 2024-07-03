@@ -63,14 +63,17 @@ def exec(message: Message):
 
     length = 15
 
-    kwargs = parser.get_kwargs(message, list[str], min=bool, max=bool)
+    kwargs, err = parser.get_kwargs(message, list[str], min=bool, max=bool)
+    if err is not None:
+        return (f'{str(err)}\n'
+                f'```\n'
+                f'{use()}\n'
+                f'```')
+
     args = kwargs['args']
     stat = args[0] if len(args) > 0 else ''
     if stat == '':
-        return '```\n' + \
-            'Supported rank stats:\n' + \
-            'alt sfb sfs red oneh inroll outroll roll inrollratio outrollratio inrolltal outrolltal rolltal' + \
-            '```'
+        return f'```\n{use()}\n```'
 
     start = args[1] if len(args) > 1 else 0
     sort_asc = kwargs['min']
@@ -121,7 +124,9 @@ def exec(message: Message):
         ) + '```'
 
 def use():
-    return 'rank [metric]'
+    return ('rank [metric]\n'
+            'Supported rank stats:\n'
+            'alt sfb sfs red oneh inroll outroll roll inrollratio outrollratio inrolltal outrolltal rolltal')
 
 def desc():
     return 'rank layouts based on a metric'

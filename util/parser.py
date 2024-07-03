@@ -1,7 +1,7 @@
 from typing import Tuple
 from discord import Message
 from util.consts import TRIGGERS
-from typing import Type
+from typing import Type, Any
 
 def get_arg(message: Message) -> str:
     args = message.content.split()
@@ -25,7 +25,9 @@ def get_layout(message: Message) -> Tuple[str, str]:
 
 def get_kwargs(message: Message,
                arg_type: Type[str | list[str]],
-               **cmd_kwargs: Type[bool | list | str]) -> dict[str, str | bool | list[str]]:
+               **cmd_kwargs: Type[bool | list | str],
+               ) -> tuple[dict[str, str | bool | list[str]],
+                          ValueError | None]:
     """
     - message: user's message list[str]
     - arg type: str or list[str]
@@ -44,6 +46,11 @@ def get_kwargs(message: Message,
 
     words: list[str] = command
     arg_index = 0
+    for word in words:
+        _is_kwarg, err = is_kwarg_strict(cmd_kwargs, word)
+        if err is not None:
+            return {}, err
+
     for word in words:
         if is_kwarg(cmd_kwargs, word):
             break
@@ -86,7 +93,7 @@ def get_kwargs(message: Message,
         parsed_kwargs[last_list_kwarg] = (words[last_in_list:] if last_kwarg_type == list
                                           else ' '.join(words[i] for i in range(last_in_list, len(words))))
 
-    return parsed_kwargs
+    return parsed_kwargs, None
 
 # checks double hyphen, em dash, double en dash
 def starts_with_kw_prefix(word: str) -> bool:
@@ -97,7 +104,15 @@ def remove_kw_prefix(word: str) -> str:
         word = word.removeprefix(prefix)
     return word.lower()
 
-def is_kwarg(kwargs: dict[str, Type[bool | list]], word: str) -> bool:
+def is_kwarg_strict(kwargs: dict[str, Any], word: str) -> tuple[bool, ValueError | None]:
+    if not starts_with_kw_prefix(word):
+        return False, None
+    word = remove_kw_prefix(word)
+    if word in kwargs:
+        return True, None
+    return False, ValueError(f"Error: invalid kwarg: `{word}`")
+
+def is_kwarg(kwargs: dict[str, Any], word: str) -> bool:
     if not starts_with_kw_prefix(word):
         return False
     word = remove_kw_prefix(word)

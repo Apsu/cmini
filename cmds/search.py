@@ -1,4 +1,3 @@
-import json
 import glob
 import random
 from jellyfish import jaro_winkler_similarity as jw
@@ -10,34 +9,39 @@ from util import parser, memory
 
 FINGERS = ['LI', 'LM', 'LR', 'LP', 'RI', 'RM', 'RR', 'RP', 'LT', 'RT', 'TB']
 FINGER_ALIASES = {
-    'index':  {'LI', 'RI'},
+    'index': {'LI', 'RI'},
     'middle': {'LM', 'RM'},
-    'ring':   {'LR', 'RR'},
-    'pinky':  {'LP', 'RP'},
-    'thumb':  {'LT', 'RT', 'TB'},
+    'ring': {'LR', 'RR'},
+    'pinky': {'LP', 'RP'},
+    'thumb': {'LT', 'RT', 'TB'},
     'lh': {'LI', 'LM', 'LR', 'LP', 'LT'},
     'rh': {'RI', 'RM', 'RR', 'RP', 'RT', 'TB'},
 }
 SIMILARITY_THRES = 0.7
 
+
 def exec(message: Message):
     is_dm = message.channel.type is ChannelType.private
-    kwargs: dict[str, str | bool] = parser.get_kwargs(message, str,
-                                                      li=bool, lm=bool, lr=bool, lp=bool, lt=bool,
-                                                      ri=bool, rm=bool, rr=bool, rp=bool, rt=bool, tb=bool,
-                                                      index=bool, middle=bool, ring=bool, pinky=bool, thumb=bool,
-                                                      lh=bool, rh=bool,
-                                                      name=list,
-                                                      )
+    kwargs: dict[str, str | bool]
+    kwargs, err = parser.get_kwargs(message, str,
+                                    li=bool, lm=bool, lr=bool, lp=bool, lt=bool,
+                                    ri=bool, rm=bool, rr=bool, rp=bool, rt=bool, tb=bool,
+                                    index=bool, middle=bool, ring=bool, pinky=bool, thumb=bool,
+                                    lh=bool, rh=bool,
+                                    name=list,
+                                    )
+    if err is not None:
+        return (f'{str(err)}\n'
+                f'```\n'
+                f'{use()}\n'
+                f'```')
+
     filter_name: str = "".join(kwargs['name'])
     sfb: str = kwargs['args']
     # No arguments
     if not sfb and not filter_name:
-        return '```\n' \
-               'search [sfb/column] [--fingers]\n' \
-               'Supported fingers: \n' \
-               'li, lm, lr, lp, ri, rm, rr, rp, lt, rt, tb, index, middle, ring, pinky, thumb, lh, rh, name\n' \
-               '```'
+        return f'```\n{use()}\n```'
+
     # Only filter by name
     if not sfb:
         res: list[str] = []
@@ -77,6 +81,7 @@ def exec(message: Message):
 
     return return_message(res, is_dm)
 
+
 def get_line_limit(res: list[str]) -> int:
     # Find the max number of lines that fit in the message (only for DMs)
     char_count = 0
@@ -87,6 +92,7 @@ def get_line_limit(res: list[str]) -> int:
             break
         line_limit += 1
     return line_limit
+
 
 def return_message(res: list[str], is_dm: bool) -> str:
     random.shuffle(res)
@@ -101,12 +107,15 @@ def return_message(res: list[str], is_dm: bool) -> str:
 
     return '\n'.join(lines)
 
+
 def is_similar(s1: str, s2: str) -> bool:
     return jw(s1, s2) > SIMILARITY_THRES
 
 
 def use():
-    return 'search [sfb/column] [--fingers | --name]'
+    return ('search [sfb/column] [--fingers] [--name <name>]\n'
+            'Supported fingers: \n'
+            'li, lm, lr, lp, ri, rm, rr, rp, lt, rt, tb, index, middle, ring, pinky, thumb, lh, rh, name\n')
 
 
 def desc():
