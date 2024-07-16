@@ -1,9 +1,7 @@
 from discord import Message
-from importlib import import_module
 
 from util import layout, memory, parser
 from util.consts import *
-from util.returns import *
 
 def exec(message: Message):
     name, string = parser.get_layout(message)
@@ -18,7 +16,6 @@ def exec(message: Message):
         return 'Error: improper finger matrix shape provided'
 
     rows = string.split('\n')
-    
     board = board_value(rows)
 
     if not board:
@@ -51,7 +48,7 @@ def exec(message: Message):
     ll.board = board
     memory.add(ll)
 
-    return f'Success!\n' + import_module('cmds.fingermap').to_string(ll)
+    return f'Success!\n' + layout.fingermap_to_string(ll)
 
 def use():
     return 'setfingermap [layout name] [FINGERMATRIX]'
@@ -87,20 +84,9 @@ def board_value(rows):
         return 'ortho'
     else:
         return
-    
+
 def finger_value(finger):
-    replacements = {
-        '0': 'LP',
-        '1': 'LR',
-        '2': 'LM',
-        '3': 'LI',
-        '4': 'RI',
-        '5': 'RM',
-        '6': 'RR',
-        '7': 'RP',
-        '8': 'LT',
-        '9': 'RT'
-    }
-    for k, v in replacements.items():
-        finger = finger.replace(k, v)
+    for k, v in FINGER_VALUES.items():
+        finger = finger.replace(str(v), k)
+        
     return finger.strip()

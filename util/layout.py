@@ -123,7 +123,7 @@ def get_fingermatrix(ll: Layout) -> list[list[str]]:
 
     for pos in ll.keys.values():
         finger = pos.finger
-        finger_val = FINGER_VALUES.get(finger, finger)
+        finger_val = str(FINGER_VALUES.get(finger, finger))
 
         matrix[pos.row][pos.col] = finger_val
 
