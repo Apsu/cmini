@@ -45,6 +45,6 @@ def desc():
     return "see the frequency of ngrams"
 
 def calculate_freq(item, ngrams):
-    pattern = re.compile(item.replace('.', '\.').replace('?', '\?').replace('_', '.'))
+    pattern = re.compile(re.escape(item).replace('_', '.'))
     count = sum(value for key, value in ngrams.items() if pattern.search(key))
     return count / sum(ngrams.values())
