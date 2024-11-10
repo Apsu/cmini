@@ -17,15 +17,23 @@ REVERSE_METRIC_NAMES = {
 }
 FULL_LAYOUT = set('abcdefghijklmnopqrstuvwxyz')
 
+
 def exec(message: Message):
     is_dm = message.channel.type is ChannelType.private
-    kwargs: dict[str, str | bool | list] = parser.get_kwargs(message, str, column=list, homerow=str, sort=str,
-                                                             sfb=str, sfs=str, alt=str, red=str,
-                                                             roll=str, oneh=str, inroll=str, outroll=str,
-                                                             rolltal=str, inrolltal=str,
-                                                             name=str,
-                                                             partial=bool,
-                                                             )
+    kwargs: dict[str, str | bool | list]
+    kwargs, err = parser.get_kwargs(message, str, column=list, homerow=str, sort=str,
+                                    sfb=str, sfs=str, alt=str, red=str,
+                                    roll=str, oneh=str, inroll=str, outroll=str,
+                                    rolltal=str, inrolltal=str,
+                                    name=str,
+                                    partial=bool,
+                                    )
+    if err is not None:
+        return (f'{str(err)}\n'
+                f'```\n'
+                f'{use()}\n'
+                f'```')
+
     column: list[str] = kwargs['column']
     row: str = kwargs['homerow']
     filter_name: str = kwargs['name']
@@ -53,17 +61,7 @@ def exec(message: Message):
     kwargs.pop('args')
 
     if all(not arg for arg in kwargs.values()):
-        return '```\n' \
-               'filter [--kwargs]\n' \
-               'Supported options: \n' \
-               '[--column <sfb/column, ...fingers>],\n' \
-               '[--homerow <keys / "sequence">],\n' \
-               '[--sort <metric>],\n' \
-               '[--name <name>]\n' \
-               '[--<metric> {< or >}{num}]\n' \
-               '[--partial]\n' \
-               'metrics: sfb, sfs, alt, red, roll, oneh, inroll, outroll, rolltal, inrolltal\n' \
-               '```'
+        return f'```\n{use()}\n```'
 
     for file in glob.glob('layouts/*.json'):
         ll = memory.parse_file(file)
@@ -142,17 +140,40 @@ def exec(message: Message):
 
     return '\n'.join(lines)
 
+
 def compare_with_str(rule: str, value: float) -> tuple[bool, Exception | None]:
-    if not rule.startswith(">") and not rule.startswith("<"):
+    if not rule.startswith('>') and not rule.startswith('<'):
         return False, ValueError(f"Error: '{rule}' does not start with greater or less than operator")
     value2_percent, ok = try_into_float(rule[1:])
     if not ok:
         return False, ValueError(f"Error: cannot convert '{rule[1:]}' into a number")
-    return value * 100 > value2_percent if rule.startswith(">") else value * 100 < value2_percent, None
+    return value * 100 > value2_percent if rule.startswith('>') else value * 100 < value2_percent, None
+
 
 def try_into_float(s: str) -> tuple[float, bool]:
     try:
         f = float(s)
-    except ValueError as e:
+    except ValueError:
         return 0, False
     return f, True
+
+
+def use():
+    return ('filter [--kwargs]\n'
+            'Supported options: \n'
+            '[--column <sfb/column, ...fingers>],\n'
+            '[--homerow <keys / "sequence">],\n'
+            '[--sort <metric>],\n'
+            '[--name <name>]\n'
+            '[--<metric> {< or >}{num}]\n'
+            '[--partial]\n'
+            'metrics: sfb, sfs, alt, red, roll, oneh, inroll, outroll, rolltal, inrolltal\n'
+            )
+
+
+def desc():
+    return ('Filters layouts by column, homerow, name, metric.\n'
+            'Sort the layouts alphabetically or by metric.\n'
+            "Filters out layouts that doesn't complete the English alphabet\n"
+            'Use `--partial` to include partial layouts'
+            )

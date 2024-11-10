@@ -7,25 +7,15 @@ from core.keyboard import Layout
 RESTRICTED = False
 
 def exec(message: Message):
-    kwargs = parser.get_kwargs(message, str, angle=bool, unangle=bool, mirror=bool, cycle=list, swap=list)
+    kwargs, err = parser.get_kwargs(message, str, angle=bool, unangle=bool, mirror=bool, cycle=list, swap=list)
+    if err is not None:
+        return (f'{str(err)}\n'
+                f'```\n'
+                f'{use()}\n'
+                f'```')
     layout_name = kwargs['args']
     if not layout_name:
-        kw_tips = """
-                Usage: `mod layout_name [--kwarg1, --kwarg2, ...]`
-                ```
-                --angle:
-                    view the angle modded version of a layout
-                --unangle:
-                    view the non angle modded version of a layout
-                --mirror:
-                    view the mirrored version of a layout
-                --cycle:
-                    cycle a layout's letters around
-                --swap:
-                    alias of --cycle
-                ```
-                """
-        return kw_tips.replace(' ' * 16, '').strip()
+        return f'```\n{use()}\n```'
 
     ll = memory.find(layout_name.lower())
     
@@ -51,7 +41,19 @@ def exec(message: Message):
     return layout.to_string(ll, id=message.author.id)
 
 def use():
-    return 'mod [name] [--kwargs]'
+    return """
+mod layout_name [--kwarg1, --kwarg2, ...]
+--angle:
+    view the angle modded version of a layout
+--unangle:
+    view the non angle modded version of a layout
+--mirror:
+    view the mirrored version of a layout
+--cycle:
+    cycle a layout's letters around
+--swap:
+    alias of --cycle
+"""
 
 def desc():
     return 'see the stats of a layout with chained modifications'
@@ -63,5 +65,3 @@ def __modify_layout(ll: Layout, mode: str, *args):
 def __get_layout_desc(mode: str) -> str:
     mod = import_module(f'cmds.{mode}')
     return mod.desc()
-
-
