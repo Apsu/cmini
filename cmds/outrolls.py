@@ -12,7 +12,7 @@ def exec(message: Message):
 
     lines = []
     for gram, count in trigrams.items():
-        gram = gram.lower
+        gram = gram.lower()
         if len(set(gram)) != len(gram): # ignore repeats
             continue
 
