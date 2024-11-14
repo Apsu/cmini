@@ -123,11 +123,6 @@
             "col": 6,
             "finger": "RI"
         },
-        "*": {
-            "row": 2,
-            "col": 7,
-            "finger": "RM"
-        },
         ".": {
             "row": 2,
             "col": 9,

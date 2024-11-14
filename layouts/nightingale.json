@@ -1,5 +1,5 @@
 {
-    "name": "nightingale",
+    "name": "Nightingale",
     "user": 657688933001330718,
     "board": "ortho",
     "keys": {
@@ -33,7 +33,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "c": {
+        "w": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -78,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "g": {
+        "c": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -113,7 +113,7 @@
             "col": 1,
             "finger": "LR"
         },
-        ";": {
+        "j": {
             "row": 2,
             "col": 2,
             "finger": "LM"
@@ -128,17 +128,17 @@
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "'": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "w": {
+        "g": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        "'": {
+        ";": {
             "row": 2,
             "col": 7,
             "finger": "RM"

@@ -1,0 +1,247 @@
+{
+    "name": "yaverty",
+    "user": 206581572965629952,
+    "board": "ortho",
+    "keys": {
+        "1": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "2": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "3": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "4": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "5": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "6": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "7": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "8": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "9": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "0": {
+            "row": 0,
+            "col": 9,
+            "finger": "RP"
+        },
+        "-": {
+            "row": 0,
+            "col": 10,
+            "finger": "RP"
+        },
+        "\u0447": {
+            "row": 0,
+            "col": 11,
+            "finger": "RP"
+        },
+        "\u044e": {
+            "row": 0,
+            "col": 12,
+            "finger": "RP"
+        },
+        "\u044f": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u0432": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u0435": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u0440": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u0442": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u044b": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u0443": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u0438": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u043e": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u043f": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "\u0448": {
+            "row": 1,
+            "col": 10,
+            "finger": "RP"
+        },
+        "\u0449": {
+            "row": 1,
+            "col": 11,
+            "finger": "RP"
+        },
+        "\u0430": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u0441": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u0434": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u0444": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u0433": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u0445": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u0439": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u043a": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u043b": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
+        },
+        ";": {
+            "row": 2,
+            "col": 9,
+            "finger": "RP"
+        },
+        ":": {
+            "row": 2,
+            "col": 10,
+            "finger": "RP"
+        },
+        "\u044d": {
+            "row": 2,
+            "col": 11,
+            "finger": "RP"
+        },
+        "\u0437": {
+            "row": 3,
+            "col": 0,
+            "finger": "LT"
+        },
+        "\u044c": {
+            "row": 3,
+            "col": 1,
+            "finger": "LT"
+        },
+        "\u0446": {
+            "row": 3,
+            "col": 2,
+            "finger": "LT"
+        },
+        "\u0436": {
+            "row": 3,
+            "col": 3,
+            "finger": "LT"
+        },
+        "\u0431": {
+            "row": 3,
+            "col": 4,
+            "finger": "LT"
+        },
+        "\u043d": {
+            "row": 3,
+            "col": 5,
+            "finger": "LT"
+        },
+        "\u043c": {
+            "row": 3,
+            "col": 6,
+            "finger": "LT"
+        },
+        ",": {
+            "row": 3,
+            "col": 7,
+            "finger": "LT"
+        },
+        ".": {
+            "row": 3,
+            "col": 8,
+            "finger": "LT"
+        },
+        "/": {
+            "row": 3,
+            "col": 9,
+            "finger": "LT"
+        },
+        "\u044a": {
+            "row": 3,
+            "col": 10,
+            "finger": "LT"
+        }
+    }
+}

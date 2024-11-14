@@ -1,6 +1,6 @@
 {
     "name": "gallium",
-    "user": 761732338744557568,
+    "user": 226147757381910531,
     "board": "ortho",
     "keys": {
         "b": {
@@ -103,12 +103,17 @@
             "col": 9,
             "finger": "RP"
         },
-        "x": {
+        ";": {
+            "row": 1,
+            "col": 10,
+            "finger": "RP"
+        },
+        "q": {
             "row": 2,
             "col": 0,
             "finger": "LP"
         },
-        "q": {
+        "x": {
             "row": 2,
             "col": 1,
             "finger": "LR"
@@ -143,7 +148,7 @@
             "col": 7,
             "finger": "RM"
         },
-        ";": {
+        "/": {
             "row": 2,
             "col": 8,
             "finger": "RR"
@@ -153,6 +158,5 @@
             "col": 9,
             "finger": "RP"
         }
-    },
-    "free": []
+    }
 }

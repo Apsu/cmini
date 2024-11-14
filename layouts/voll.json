@@ -8,17 +8,17 @@
             "col": 0,
             "finger": "LP"
         },
-        "d": {
+        "m": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "l": {
+        "h": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "f": {
+        "w": {
             "row": 0,
             "col": 3,
             "finger": "LI"
@@ -28,12 +28,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "=": {
+        "q": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "q": {
+        "j": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -68,7 +68,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "w": {
+        "c": {
             "row": 1,
             "col": 3,
             "finger": "LI"
@@ -78,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        ".": {
+        "=": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -108,22 +108,22 @@
             "col": 0,
             "finger": "LP"
         },
-        "m": {
+        "d": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "h": {
+        "l": {
             "row": 2,
             "col": 2,
             "finger": "LM"
         },
-        "c": {
+        "g": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "g": {
+        "f": {
             "row": 2,
             "col": 4,
             "finger": "LI"
@@ -133,7 +133,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "j": {
+        ".": {
             "row": 2,
             "col": 6,
             "finger": "RI"
@@ -156,12 +156,12 @@
         "x": {
             "row": 3,
             "col": 0,
-            "finger": "RT"
+            "finger": "LT"
         },
         "r": {
             "row": 3,
             "col": 1,
-            "finger": "RT"
+            "finger": "LT"
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "night",
+    "name": "Night",
     "user": 657688933001330718,
     "board": "ortho",
     "keys": {
@@ -128,7 +128,7 @@
             "col": 4,
             "finger": "LI"
         },
-        ";": {
+        "'": {
             "row": 2,
             "col": 5,
             "finger": "RI"
@@ -138,7 +138,7 @@
             "col": 6,
             "finger": "RI"
         },
-        "'": {
+        ";": {
             "row": 2,
             "col": 7,
             "finger": "RM"
