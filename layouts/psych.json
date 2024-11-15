@@ -1,7 +1,7 @@
 {
     "name": "psych",
     "user": 377291081542533121,
-    "board": "ortho",
+    "board": "angle",
     "keys": {
         "/": {
             "row": 0,
@@ -23,7 +23,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "x": {
+        "z": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -73,12 +73,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "y": {
+        "g": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "d": {
+        "c": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -118,37 +118,37 @@
             "col": 2,
             "finger": "LI"
         },
-        "g": {
+        "y": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "c": {
+        ";": {
             "row": 2,
             "col": 4,
-            "finger": "RI"
+            "finger": "LI"
         },
         "p": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "q": {
+        "d": {
             "row": 2,
             "col": 6,
-            "finger": "RM"
+            "finger": "RI"
         },
         "v": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "z": {
+        "q": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        ";": {
+        "x": {
             "row": 2,
             "col": 9,
             "finger": "RP"
