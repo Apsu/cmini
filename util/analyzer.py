@@ -66,12 +66,18 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
 def trigrams(ll: Layout, grams: Dict[str, int]):
     counts = DEFAULT_COUNTER.copy()
     fingers = {key: value.finger for key, value in ll.keys.items()}
+    total = 0
 
     for gram, count in grams.items():
         gram = gram.lower()
 
         if ' ' in gram:
             continue
+
+        if not all(char in fingers.keys() for char in gram):
+            continue
+
+        total += count
 
         # Skips on sfr sfb sfsr
         if fingers[gram[0]] == fingers[gram[1]] or fingers[gram[1]] == fingers[gram[2]] or gram[1] == gram[2]:
@@ -83,7 +89,6 @@ def trigrams(ll: Layout, grams: Dict[str, int]):
 
         counts[gram_type] += count
 
-    total = sum(counts.values())
     for stat in counts:
         counts[stat] /= total
 
