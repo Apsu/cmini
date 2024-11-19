@@ -5,7 +5,6 @@ from core.keyboard import Layout
 
 with open('table.json', 'r') as f:
     TABLE: Dict[str, str] = json.load(f)
-DEFAULT_COUNTER: dict[str, float] = dict.fromkeys(set(TABLE.values()) | {'sfR', 'unknown'}, 0)
 
 def use(ll: Layout, grams: Dict[str, str]):
     fingers = {}
@@ -27,8 +26,8 @@ def use(ll: Layout, grams: Dict[str, str]):
     for finger in fingers:
         fingers[finger] /= total
 
-    fingers['LH'] = sum(fingers[x] for x in fingers if x[0] in 'L')
-    fingers['RH'] = sum(fingers[x] for x in fingers if x[0] in 'RT')
+    fingers['LH'] = sum(fingers[x] for x in fingers if x[0] == 'L')
+    fingers['RH'] = sum(fingers[x] for x in fingers if x[0] == 'R')
 
     return fingers
 
@@ -39,9 +38,6 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
     total = 0
 
     for gram, count in grams.items():
-        if ' ' in gram:
-            continue
-
         gram = gram.lower()
 
         if not (gram[0] in fingers and gram[1] in fingers):
@@ -69,9 +65,6 @@ def trigrams(ll: Layout, grams: Dict[str, int]):
     total = 0
 
     for gram, count in grams.items():
-        if ' ' in gram:
-            continue
-
         gram = gram.lower()
 
         if not all(char in fingers.keys() for char in gram):
