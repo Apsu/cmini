@@ -39,15 +39,12 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
         'sfb': 0.0
     }
     fingers = {key: value.finger for key, value in ll.keys.items()}
-    total = 0
 
     for gram, count in grams.items():
         gram = gram.lower()
 
         if not (gram[0] in fingers and gram[1] in fingers):
             continue
-
-        total += count
 
         if gram[0] == gram[1]:
             counts['sfR'] = counts.get('sfR', 0) + count
@@ -57,6 +54,7 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
             counts['sfb'] = counts.get('sfb', 0) + count
             continue
 
+    total = sum(grams.values())
     counts = {key: value / total if value != 0 else value for key, value in counts.items()}
 
     return counts
@@ -65,15 +63,12 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
 def trigrams(ll: Layout, grams: Dict[str, int]):
     counts = DEFAULT_COUNTER.copy()
     fingers = {key: value.finger for key, value in ll.keys.items()}
-    total = 0
 
     for gram, count in grams.items():
         gram = gram.lower()
 
         if not all(char in fingers.keys() for char in gram):
             continue
-
-        total += count
 
         # Skips on sfr sfb sfsr
         if fingers[gram[0]] == fingers[gram[1]] or fingers[gram[1]] == fingers[gram[2]] or gram[0] == gram[2]:
@@ -85,6 +80,7 @@ def trigrams(ll: Layout, grams: Dict[str, int]):
 
         counts[gram_type] = counts.get(gram_type, 0) + count
 
+    total = sum(grams.values())
     counts = {key: value / total if value != 0 else value for key, value in counts.items()}
 
     return counts
