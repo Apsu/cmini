@@ -64,7 +64,7 @@ def get_commonmatrix(ll1, ll2) -> list[list[str]]:
                 max((x.col if x else 0) for x in ll2.keys.values())) + 1
     max_height = max(max((x.row if x else 0) for x in ll1.keys.values()),
                     max((x.row if x else 0) for x in ll2.keys.values())) + 1
-    
+
     matrix =  [[' '] * max_width for _ in range(max_height)]
     matrix1 = [[' '] * max_width for _ in range(max_height)]
     matrix2 = [[' '] * max_width for _ in range(max_height)]
@@ -153,24 +153,27 @@ def get_fingermatrix_str(ll: Layout) -> str:
     return '\n'.join(' '.join(x) for x in get_fingermatrix(ll))
 
 
-def stats_str(stats: JSON, use: JSON) -> str:
-    return (f' {"Alt:":>5} {stats["alternate"]:>6.2%}\n'
-            f' {"Rol:":>5} {stats["roll-in"] + stats["roll-out"]:>6.2%}'
-            f'   (In/Out: {stats["roll-in"]:>6.2%} | {stats["roll-out"]:>6.2%})\n'
-            # f'   (In: {stats["roll-in"]:>6.2%} Out: {stats["roll-out"]:>6.2%})\n'
-            f' {"One:":>5} {stats["oneh-in"] + stats["oneh-out"]:>6.2%}'
-            f'   (In/Out: {stats["oneh-in"]:>6.2%} | {stats["oneh-out"]:>6.2%})\n'
-            # f'   (In: {stats["oneh-in"]:>6.2%} Out: {stats["oneh-out"]:>6.2%})\n'
-            f' {"Rtl:":>5} {stats["roll-in"] + stats["roll-out"] + stats["oneh-in"] + stats["oneh-out"]:>6.2%}'
-            f'   (In/Out: {stats["roll-in"] + stats["oneh-in"]:>6.2%} | {stats["roll-out"] + stats["oneh-out"]:>6.2%})\n'
-            f' {"Red:":>5} {stats["redirect"] + stats["bad-redirect"]:>6.2%}'
-            f'   (Bad: {stats["bad-redirect"]:>9.2%})\n'
-            '\n'
-            f'  SFB: {stats["sfb"] / 2:.2%}\n'
-            f'  SFS: {stats["dsfb-red"] + stats["dsfb-alt"]:.2%}'
-            f'    (Red/Alt: {stats["dsfb-red"]:>5.2%} | {stats["dsfb-alt"]:>5.2%})\n'
-            '\n'
-            f'  LH/RH: {use["LH"]:.2%} | {use["RH"]:.2%}')
+def stats_str(stats: JSON|dict[str, float], use: JSON|dict[str, float]) -> str:
+    try:
+        return (f' {"Alt:":>5} {stats["alternate"]:>6.2%}\n'
+                f' {"Rol:":>5} {stats["roll-in"] + stats["roll-out"]:>6.2%}'
+                f'   (In/Out: {stats["roll-in"]:>6.2%} | {stats["roll-out"]:>6.2%})\n'
+                # f'   (In: {stats["roll-in"]:>6.2%} Out: {stats["roll-out"]:>6.2%})\n'
+                f' {"One:":>5} {stats["oneh-in"] + stats["oneh-out"]:>6.2%}'
+                f'   (In/Out: {stats["oneh-in"]:>6.2%} | {stats["oneh-out"]:>6.2%})\n'
+                # f'   (In: {stats["oneh-in"]:>6.2%} Out: {stats["oneh-out"]:>6.2%})\n'
+                f' {"Rtl:":>5} {stats["roll-in"] + stats["roll-out"] + stats["oneh-in"] + stats["oneh-out"]:>6.2%}'
+                f'   (In/Out: {stats["roll-in"] + stats["oneh-in"]:>6.2%} | {stats["roll-out"] + stats["oneh-out"]:>6.2%})\n'
+                f' {"Red:":>5} {stats["redirect"] + stats["bad-redirect"]:>6.2%}'
+                f'   (Bad: {stats["bad-redirect"]:>9.2%})\n'
+                '\n'
+                f'  SFB: {stats["sfb"]:.2%}\n'
+                f'  SFS: {stats["dsfb-red"] + stats["dsfb-alt"]:.2%}'
+                f'    (Red/Alt: {stats["dsfb-red"]:>5.2%} | {stats["dsfb-alt"]:>5.2%})\n'
+                '\n'
+                f'  LH/RH: {use["LH"]:.2%} | {use["RH"]:.2%}')
+    except Exception:
+        return ""
 
 
 def to_string(ll: Layout, id: int):

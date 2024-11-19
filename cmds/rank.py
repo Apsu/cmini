@@ -17,8 +17,6 @@ class GetLayoutStats:
         self.percent = percent
 
     def __call__(self, cached_stats: dict[str, float]):
-        if self.stats[0] == 'sfb':
-            return cached_stats[self.stats[0]] / 2
         if len(self.stats) == 1:
             return cached_stats[self.stats[0]]
         if self.operator == '/':

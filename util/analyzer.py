@@ -11,10 +11,10 @@ def use(ll: Layout, grams: Dict[str, str]):
     fingers = {}
 
     for gram, count in grams.items():
-        gram = gram.lower()
-
         if gram not in ll.keys:
             continue
+
+        gram = gram.lower()
 
         finger = ll.keys[gram].finger
 
@@ -34,15 +34,15 @@ def use(ll: Layout, grams: Dict[str, str]):
 
 
 def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
-    counts = DEFAULT_COUNTER.copy()
+    counts = {}
     fingers = {key: value.finger for key, value in ll.keys.items()}
     total = 0
 
     for gram, count in grams.items():
-        gram = gram.lower()
-
         if ' ' in gram:
             continue
+
+        gram = gram.lower()
 
         if not (gram[0] in fingers and gram[1] in fingers):
             continue
@@ -50,11 +50,11 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
         total += count
 
         if gram[0] == gram[1]:
-            counts['sfR'] += count
+            counts['sfR'] = counts.get('sfR', 0) + count
             continue
 
         if fingers[gram[0]] == fingers[gram[1]]:
-            counts['sfb'] += count
+            counts['sfb'] = counts.get('sfb', 0) + count
             continue
 
     for stat in counts:
@@ -64,15 +64,15 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
 
 
 def trigrams(ll: Layout, grams: Dict[str, int]):
-    counts = DEFAULT_COUNTER.copy()
+    counts = {}
     fingers = {key: value.finger for key, value in ll.keys.items()}
     total = 0
 
     for gram, count in grams.items():
-        gram = gram.lower()
-
         if ' ' in gram:
             continue
+
+        gram = gram.lower()
 
         if not all(char in fingers.keys() for char in gram):
             continue
@@ -80,14 +80,14 @@ def trigrams(ll: Layout, grams: Dict[str, int]):
         total += count
 
         # Skips on sfr sfb sfsr
-        if fingers[gram[0]] == fingers[gram[1]] or fingers[gram[1]] == fingers[gram[2]] or gram[1] == gram[2]:
+        if fingers[gram[0]] == fingers[gram[1]] or fingers[gram[1]] == fingers[gram[2]] or gram[0] == gram[2]:
             continue
 
-        finger_combo = '-'.join(fingers[x] for x in gram if x in fingers)
+        finger_combo = '-'.join(fingers[x] for x in gram)
         finger_combo = finger_combo.replace('TB', 'RT')
         gram_type = TABLE.get(finger_combo, 'unknown')
 
-        counts[gram_type] += count
+        counts[gram_type] = counts.get(gram_type, 0) + count
 
     for stat in counts:
         counts[stat] /= total
