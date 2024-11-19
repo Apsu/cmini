@@ -11,10 +11,10 @@ def use(ll: Layout, grams: Dict[str, str]):
     fingers = {}
 
     for gram, count in grams.items():
+        gram = gram.lower()
+
         if gram not in ll.keys:
             continue
-
-        gram = gram.lower()
 
         finger = ll.keys[gram].finger
 
