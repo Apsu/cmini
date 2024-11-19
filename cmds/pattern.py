@@ -41,10 +41,11 @@ def exec(message: Message):
             freq += count
 
     lines = [f'{gram:<6} {count / total:.3%}' for gram, count in sorted(ngrams.items(), key=lambda x: x[1], reverse=True)[:10]]
+    finger_pattern = '-'.join(query)
 
     return '\n'.join([
         '```',
-        f'Top {len(lines)} {ll.name} Patterns for {'-'.join(query)}:'] +
+        f'Top {len(lines)} {ll.name} Patterns for {finger_pattern}:'] +
         lines +
         [f'Total: {freq / total:.3%}',
         '```'
