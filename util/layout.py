@@ -185,10 +185,7 @@ def to_string(ll: Layout, id: int):
 
     matrix_str = get_matrix_str(ll)
 
-    stats = {
-        **analyzer.trigrams(ll, trigram),
-        **analyzer.bigrams(ll, bigram)
-    }
+    stats = analyzer.trigrams(ll, trigram) | analyzer.bigrams(ll, bigram)
     use = analyzer.use(ll, monogram)
 
     with open('likes.json', 'r') as f:

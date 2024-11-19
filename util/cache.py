@@ -22,10 +22,10 @@ def layout_get(name: str):
 
 
 def cache_fill(ll: Layout, data: dict | None, corpus: str) -> dict[str, dict]:
-    stats = {
-        **analyzer.trigrams(ll, corpora.load_json(f'corpora/{corpus}/trigrams.json')),
-        **analyzer.bigrams(ll, corpora.load_json(f'corpora/{corpus}/bigrams.json'))
-    }
+    stats = (
+        analyzer.trigrams(ll, corpora.load_json(f'corpora/{corpus}/trigrams.json')) |
+        analyzer.bigrams(ll, corpora.load_json(f'corpora/{corpus}/bigrams.json'))
+    )
     update = {corpus: stats}
 
     if data is not None:

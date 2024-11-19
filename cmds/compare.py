@@ -24,14 +24,8 @@ def exec(message: Message):
     trigrams = corpora.ngrams(3, id=user_id)
     bigrams = corpora.ngrams(2, id=user_id)
 
-    old_stats = {
-        **analyzer.trigrams(old_ll, trigrams),
-        **analyzer.bigrams(old_ll, bigrams)
-    }
-    new_stats = {
-        **analyzer.trigrams(new_ll, trigrams),
-        **analyzer.bigrams(new_ll, bigrams)
-    }
+    old_stats = analyzer.trigrams(old_ll, trigrams) | analyzer.bigrams(old_ll, bigrams)
+    new_stats = analyzer.trigrams(new_ll, trigrams) | analyzer.bigrams(new_ll, bigrams)
     old_use = analyzer.use(old_ll, monograms)
     new_use = analyzer.use(new_ll, monograms)
 
