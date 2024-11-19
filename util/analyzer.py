@@ -57,8 +57,7 @@ def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
             counts['sfb'] = counts.get('sfb', 0) + count
             continue
 
-    for stat in counts:
-        counts[stat] /= total
+    counts = {key: value / total if value != 0 else value for key, value in counts.items()}
 
     return counts
 
@@ -86,7 +85,6 @@ def trigrams(ll: Layout, grams: Dict[str, int]):
 
         counts[gram_type] = counts.get(gram_type, 0) + count
 
-    for stat in counts:
-        counts[stat] /= total
+    counts = {key: value / total if value != 0 else value for key, value in counts.items()}
 
     return counts
