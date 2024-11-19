@@ -155,16 +155,16 @@ def get_fingermatrix_str(ll: Layout) -> str:
 
 def stats_str(stats: JSON|dict[str, float], use: JSON|dict[str, float]) -> str:
     try:
-        return (f' {"Alt:":>5} {stats["alternate"]:>6.2%}\n'
-                f' {"Rol:":>5} {stats["roll-in"] + stats["roll-out"]:>6.2%}'
+        return (f' {"Alt:":>5} {stats["alternate"]:<6.2%}\n'
+                f' {"Rol:":>5} {stats["roll-in"] + stats["roll-out"]:<6.2%}'
                 f'   (In/Out: {stats["roll-in"]:>6.2%} | {stats["roll-out"]:>6.2%})\n'
                 # f'   (In: {stats["roll-in"]:>6.2%} Out: {stats["roll-out"]:>6.2%})\n'
-                f' {"One:":>5} {stats["oneh-in"] + stats["oneh-out"]:>6.2%}'
+                f' {"One:":>5} {stats["oneh-in"] + stats["oneh-out"]:<6.2%}'
                 f'   (In/Out: {stats["oneh-in"]:>6.2%} | {stats["oneh-out"]:>6.2%})\n'
                 # f'   (In: {stats["oneh-in"]:>6.2%} Out: {stats["oneh-out"]:>6.2%})\n'
-                f' {"Rtl:":>5} {stats["roll-in"] + stats["roll-out"] + stats["oneh-in"] + stats["oneh-out"]:>6.2%}'
+                f' {"Rtl:":>5} {stats["roll-in"] + stats["roll-out"] + stats["oneh-in"] + stats["oneh-out"]:<6.2%}'
                 f'   (In/Out: {stats["roll-in"] + stats["oneh-in"]:>6.2%} | {stats["roll-out"] + stats["oneh-out"]:>6.2%})\n'
-                f' {"Red:":>5} {stats["redirect"] + stats["bad-redirect"]:>6.2%}'
+                f' {"Red:":>5} {stats["redirect"] + stats["bad-redirect"]:<6.2%}'
                 f'   (Bad: {stats["bad-redirect"]:>9.2%})\n'
                 '\n'
                 f'  SFB: {stats["sfb"]:.2%}\n'

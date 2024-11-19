@@ -46,7 +46,7 @@ def exec(message: Message):
         '```',
         f'Top {len(lines)} {ll.name} Patterns for {'-'.join(query)}:'] +
         lines +
-        [f'Total {freq / total:.3%}',
+        [f'Total: {freq / total:.3%}',
         '```'
     ])
 

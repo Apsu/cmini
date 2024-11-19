@@ -35,6 +35,6 @@ def get_name(id: int) -> str:
     names = [k for k, v in authors.items() if int(v) == id]
 
     if names:
-        return names[0]
+        return names[-1:][0]
     else:
         return 'unknown'
