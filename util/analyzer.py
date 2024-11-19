@@ -9,7 +9,7 @@ DEFAULT_COUNTER: dict[str, float] = dict.fromkeys(set(TABLE.values()) | {'sfR', 
 
 def use(ll: Layout, grams: Dict[str, str]):
     fingers = {}
-    
+
     for gram, count in grams.items():
         gram = gram.lower()
 
@@ -17,7 +17,7 @@ def use(ll: Layout, grams: Dict[str, str]):
             continue
 
         finger = ll.keys[gram].finger
-        
+
         if finger not in fingers:
             fingers[finger] = 0
 
@@ -33,9 +33,10 @@ def use(ll: Layout, grams: Dict[str, str]):
     return fingers
 
 
-def trigrams(ll: Layout, grams: Dict[str, int]):
+def bigrams(ll: Layout, grams: Dict[str, int]) -> dict[str, float]:
     counts = DEFAULT_COUNTER.copy()
-    fingers = {x: ll.keys[x].finger for x in ll.keys}
+    fingers = {key: value.finger for key, value in ll.keys.items()}
+    total = 0
 
     for gram, count in grams.items():
         gram = gram.lower()
@@ -43,8 +44,37 @@ def trigrams(ll: Layout, grams: Dict[str, int]):
         if ' ' in gram:
             continue
 
-        if gram[0] == gram[1] or gram[1] == gram[2] or gram[0] == gram[2]:
+        if not (gram[0] in fingers and gram[1] in fingers):
+            continue
+
+        total += count
+
+        if gram[0] == gram[1]:
             counts['sfR'] += count
+            continue
+
+        if fingers[gram[0]] == fingers[gram[1]]:
+            counts['sfb'] += count
+            continue
+
+    for stat in counts:
+        counts[stat] /= total
+
+    return counts
+
+
+def trigrams(ll: Layout, grams: Dict[str, int]):
+    counts = DEFAULT_COUNTER.copy()
+    fingers = {key: value.finger for key, value in ll.keys.items()}
+
+    for gram, count in grams.items():
+        gram = gram.lower()
+
+        if ' ' in gram:
+            continue
+
+        # Skips on sfr sfb sfsr
+        if fingers[gram[0]] == fingers[gram[1]] or fingers[gram[1]] == fingers[gram[2]] or gram[1] == gram[2]:
             continue
 
         finger_combo = '-'.join(fingers[x] for x in gram if x in fingers)

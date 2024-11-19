@@ -177,11 +177,15 @@ def to_string(ll: Layout, id: int):
     author = authors.get_name(ll.user)
 
     monogram = corpora.ngrams(1, id=id)
+    bigram = corpora.ngrams(2, id=id)
     trigram = corpora.ngrams(3, id=id)
 
     matrix_str = get_matrix_str(ll)
 
-    stats = analyzer.trigrams(ll, trigram)
+    stats = {
+        **analyzer.trigrams(ll, trigram),
+        **analyzer.bigrams(ll, bigram)
+    }
     use = analyzer.use(ll, monogram)
 
     with open('likes.json', 'r') as f:
@@ -218,7 +222,7 @@ def fingermap_to_string(ll: Layout):
 
     matrix_str = get_matrix_str(ll)
     fmatrix_str = get_fingermatrix_str(ll)
-    
+
     with open('likes.json', 'r') as f:
         likes = json.load(f)
 
@@ -231,7 +235,7 @@ def fingermap_to_string(ll: Layout):
         like_string = 'like'
     else:
         like_string = 'likes'
-    
+
     external_link = links.get_link(ll.name.lower())
 
     res = (
