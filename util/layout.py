@@ -165,11 +165,11 @@ def stats_str(stats: JSON|dict[str, float], use: JSON|dict[str, float]) -> str:
                 f'  Rtl: {stats["roll-in"] + stats["roll-out"] + stats["oneh-in"] + stats["oneh-out"]:>7.2%}'
                 f'   (In/Out: {stats["roll-in"] + stats["oneh-in"]:>7.2%} | {stats["roll-out"] + stats["oneh-out"]:>7.2%})\n'
                 f'  Red: {stats["redirect"] + stats["bad-redirect"]:>7.2%}'
-                f'   (Bad: {stats["bad-redirect"]:>9.2%})\n'
+                f'   (Bad: {stats["bad-redirect"]:>10.2%})\n'
                 '\n'
                 f'  SFB: {stats["sfb"]:>7.2%}\n'
                 f'  SFS: {stats["dsfb-red"] + stats["dsfb-alt"]:>7.2%}'
-                f'   (Red/Alt: {stats["dsfb-red"]:>7.2%} | {stats["dsfb-alt"]:>7.2%})\n'
+                f'   (Red/Alt: {stats["dsfb-red"]:>6.2%} | {stats["dsfb-alt"]:>7.2%})\n'
                 '\n'
                 f'  LH/RH: {use["LH"]:.2%} | {use["RH"]:.2%}')
     except Exception:
