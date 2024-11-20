@@ -155,21 +155,47 @@ def get_fingermatrix_str(ll: Layout) -> str:
 
 def stats_str(stats: JSON|dict[str, float], use: JSON|dict[str, float]) -> str:
     try:
-        return (f'  Alt: {stats["alternate"]:>7.2%}\n'
-                f'  Rol: {stats["roll-in"] + stats["roll-out"]:>7.2%}'
-                f'   (In/Out: {stats["roll-in"]:>7.2%} | {stats["roll-out"]:>7.2%})\n'
-                # f'   (In: {stats["roll-in"]:>6.2%} Out: {stats["roll-out"]:>6.2%})\n'
-                f'  One: {stats["oneh-in"] + stats["oneh-out"]:>7.2%}'
-                f'   (In/Out: {stats["oneh-in"]:>7.2%} | {stats["oneh-out"]:>7.2%})\n'
-                # f'   (In: {stats["oneh-in"]:>6.2%} Out: {stats["oneh-out"]:>6.2%})\n'
-                f'  Rtl: {stats["roll-in"] + stats["roll-out"] + stats["oneh-in"] + stats["oneh-out"]:>7.2%}'
-                f'   (In/Out: {stats["roll-in"] + stats["oneh-in"]:>7.2%} | {stats["roll-out"] + stats["oneh-out"]:>7.2%})\n'
-                f'  Red: {stats["redirect"] + stats["bad-redirect"]:>7.2%}'
-                f'   (Bad: {stats["bad-redirect"]:>10.2%})\n'
+        col_1 = {
+            'alt': f'{stats["alternate"]:.2%}',
+            'rol': f'{stats["roll-in"] + stats["roll-out"]:.2%}',
+            'one': f'{stats["oneh-in"] + stats["oneh-out"]:.2%}',
+            'rtl': f'{stats["roll-in"] + stats["roll-out"] + stats["oneh-in"] + stats["oneh-out"]:.2%}',
+            'red': f'{stats["redirect"] + stats["bad-redirect"]:.2%}',
+            'sfb': f'{stats["sfb"]:.2%}',
+            'sfs': f'{stats["dsfb-red"] + stats["dsfb-alt"]:.2%}',
+        }
+        col_2 = {
+            'rol-in': f'{stats["roll-in"]:.2%}',
+            'one-in': f'{stats["oneh-in"]:.2%}',
+            'rtl-in': f'{stats["roll-in"] + stats["oneh-in"]:.2%}',
+            'bad': f'{stats["bad-redirect"]:.2%}',
+            'sfs-red': f'{stats["dsfb-red"]:.2%}',
+        }
+        col_3 = {
+            'rol-out': f'{stats["roll-out"]:.2%}',
+            'one-out': f'{stats["oneh-out"]:.2%}',
+            'rtl-out': f'{stats["roll-out"] + stats["oneh-out"]:.2%}',
+            'sfs-alt': f'{stats["dsfb-alt"]:.2%}',
+        }
+        paddings = [
+            max([len(x) for x in col_1.values()]),
+            max([len(x) for x in col_2.values()]),
+            max([len(x) for x in col_3.values()]),
+        ]
+
+        return (f'  Alt: {col_1['alt']:>{paddings[0]}}\n'
+                f'  Rol: {col_1['rol']:>{paddings[0]}}'
+                f'   (In/Out:  {col_2['rol-in']:>paddings[1]} | {col_3['rol-out']:>paddings[2]})\n'
+                f'  One: {col_1['one']:>{paddings[0]}}'
+                f'   (In/Out:  {col_2['one-in']:>paddings[1]} | {col_3['one-out']:>paddings[2]})\n'
+                f'  Rtl: {col_1['rtl']:>{paddings[0]}}'
+                f'   (In/Out:  {col_2['rtl-in']:>paddings[1]} | {col_3['rtl-out']:>paddings[2]})\n'
+                f'  Red: {col_1['red']:>{paddings[0]}}'
+                f'   (Bad:     {col_2['bad']:>paddings[1]})\n'
                 '\n'
-                f'  SFB: {stats["sfb"]:>7.2%}\n'
-                f'  SFS: {stats["dsfb-red"] + stats["dsfb-alt"]:>7.2%}'
-                f'   (Red/Alt: {stats["dsfb-red"]:>6.2%} | {stats["dsfb-alt"]:>7.2%})\n'
+                f'  SFB: {col_1['sfb']:>{paddings[0]}}\n'
+                f'  SFS: {col_1['sfs']:>{paddings[0]}}'
+                f'   (Red/Alt: {col_2['sfs-red']:>paddings[1]} | {col_3['sfs-alt']:>paddings[2]})\n'
                 '\n'
                 f'  LH/RH: {use["LH"]:.2%} | {use["RH"]:.2%}')
     except Exception:
