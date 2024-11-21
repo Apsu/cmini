@@ -19,8 +19,8 @@ def get_layout(message: Message) -> Tuple[str, str]:
 
     args = tokens[0].split()
     name = '-'.join(args[2:] if args[0] in TRIGGERS else args[1:]).lower()
-    lines = tokens[1].splitlines()[1:]
-    min_space = min(len(row) - len(row.lstrip()) for row in lines)
+    lines = [line for line in tokens[1].splitlines() if line.strip() != '']
+    min_space = min(len(line) - len(line.lstrip()) for line in lines)
     matrix = '\n'.join([line[min_space:] for line in lines])
 
     return name, matrix
