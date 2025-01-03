@@ -16,6 +16,8 @@ REVERSE_METRIC_NAMES = {
     'alt', 'roll', 'oneh', 'inroll', 'outroll', 'rolltal', 'inrolltal'
 }
 FULL_LAYOUT = set('abcdefghijklmnopqrstuvwxyz')
+FULL_PUNC = set('.,\'')
+THUMBS = ('LT', 'RT', 'TB',)
 
 
 def exec(message: Message):
@@ -27,6 +29,8 @@ def exec(message: Message):
                                     rolltal=str, inrolltal=str,
                                     name=str,
                                     partial=bool,
+                                    punc=bool,
+                                    thumb=bool,
                                     )
     if err is not None:
         return (f'{str(err)}\n'
@@ -38,6 +42,8 @@ def exec(message: Message):
     row: str = kwargs['homerow']
     filter_name: str = kwargs['name']
     filter_partial: bool = kwargs['partial']
+    filter_punc: bool = kwargs['punc']
+    filter_thumb: bool = kwargs['thumb']
     sort_metric: str = kwargs['sort']
 
     filter_stats: dict[str, str] = {stat: kwargs[stat] for stat in METRIC_NAMES}
@@ -65,6 +71,17 @@ def exec(message: Message):
 
     for file in glob.glob('layouts/*.json'):
         ll = memory.parse_file(file)
+
+        # Partial layout disabled but layout does not contain a-z
+        if not filter_partial and not set(ll.keys).issuperset(FULL_LAYOUT):
+            continue
+
+        if not filter_punc and not set(ll.keys).issuperset(FULL_PUNC):
+            continue
+
+        # Thumb layout disabled but layout has thumb keys.
+        if not filter_thumb and any(position.finger in THUMBS for position in ll.keys.values()):
+            continue
 
         # Filter by sfb/column
         if sfb:
@@ -112,10 +129,6 @@ def exec(message: Message):
 
         # Stats failed comparison checks
         if not filtered:
-            continue
-
-        # Partial layout disabled but layout does not contain a-z
-        if not filter_partial and not set(ll.keys).issuperset(FULL_LAYOUT):
             continue
 
         if sort_method:
@@ -167,6 +180,8 @@ def use():
             '[--name <name>]\n'
             '[--<metric> {< or >}{num}]\n'
             '[--partial]\n'
+            '[--punc]\n'
+            '[--thumb]\n'
             'metrics: sfb, sfs, alt, red, roll, oneh, inroll, outroll, rolltal, inrolltal\n'
             )
 
@@ -175,5 +190,7 @@ def desc():
     return ('Filters layouts by column, homerow, name, metric.\n'
             'Sort the layouts alphabetically or by metric.\n'
             "Filters out layouts that doesn't complete the English alphabet\n"
-            'Use `--partial` to include partial layouts'
+            'Use `--partial` to include partial layouts\n'
+            'Use `--punc` to include layouts without .,\'\n'
+            'Use `--thumb` to include thumb layouts\n'
             )
