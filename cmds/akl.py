@@ -3,6 +3,7 @@ from discord import Colour, Client, Guild
 AKL_ID = 807843650717483049
 
 LAYOUT_ROLE_COLOUR = Colour.teal()  # 0x1ABC9C
+QWERTY = "QWERTY"
 
 class CaseInsensitiveStr:
     def __init__(self, value):
@@ -29,7 +30,7 @@ def exec(bot: Client):
     guild: Guild = bot.get_guild(AKL_ID)
     if not guild:
         return 'Error: Cannot find akl server'
-    layout_roles = [role for role in guild.roles if role.colour == LAYOUT_ROLE_COLOUR]
+    layout_roles = [role for role in guild.roles if role.colour == LAYOUT_ROLE_COLOUR or role.name == QWERTY]
     role_counts = {CaseInsensitiveStr(role.name): len(role.members) for role in layout_roles}
 
     layout_role_counts: list[tuple[CaseInsensitiveStr, int]] = sorted(
