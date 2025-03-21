@@ -1,0 +1,27 @@
+{
+    "name": "wasd",
+    "user": 621924065581465611,
+    "board": "stagger",
+    "keys": {
+        "w": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "a": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "s": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "d": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        }
+    }
+}

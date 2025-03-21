@@ -1,0 +1,87 @@
+{
+    "name": "raceism",
+    "user": 1207294104950542337,
+    "board": "ortho",
+    "keys": {
+        "a": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "n": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "y": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "o": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u0274": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "e": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "w": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\uff41": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\uff4e": {
+            "row": 0,
+            "col": 9,
+            "finger": "RP"
+        },
+        "t": {
+            "row": 0,
+            "col": 10,
+            "finger": "RP"
+        },
+        "\u03c4": {
+            "row": 0,
+            "col": 12,
+            "finger": "RP"
+        },
+        "\u03bf": {
+            "row": 0,
+            "col": 13,
+            "finger": "RP"
+        },
+        "r": {
+            "row": 0,
+            "col": 15,
+            "finger": "RP"
+        },
+        "\u0251": {
+            "row": 0,
+            "col": 16,
+            "finger": "RP"
+        },
+        "c": {
+            "row": 0,
+            "col": 17,
+            "finger": "RP"
+        },
+        "\u0435": {
+            "row": 0,
+            "col": 18,
+            "finger": "RP"
+        }
+    }
+}

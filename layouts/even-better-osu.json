@@ -1,0 +1,22 @@
+{
+    "name": "even-better-osu",
+    "user": 239371209202991105,
+    "board": "ortho",
+    "keys": {
+        "a": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "s": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "d": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        }
+    }
+}

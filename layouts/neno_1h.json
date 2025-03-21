@@ -18,7 +18,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "p": {
+        "f": {
             "row": 0,
             "col": 3,
             "finger": "LI"
@@ -118,7 +118,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "f": {
+        "p": {
             "row": 2,
             "col": 3,
             "finger": "LI"

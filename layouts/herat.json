@@ -1,0 +1,42 @@
+{
+    "name": "herat",
+    "user": 584442680725995540,
+    "board": "ortho",
+    "keys": {
+        "h": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "e": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "r": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "a": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "t": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        ":": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "3": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        }
+    }
+}

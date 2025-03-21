@@ -1,0 +1,57 @@
+{
+    "name": "deeznuts",
+    "user": 584442680725995540,
+    "board": "ortho",
+    "keys": {
+        "d": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "e": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u00e9": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "z": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "n": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "u": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "t": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "s": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        ":": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "3": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}

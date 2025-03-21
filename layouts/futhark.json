@@ -1,0 +1,37 @@
+{
+    "name": "futhark",
+    "user": 1312135267632550001,
+    "board": "ortho",
+    "keys": {
+        "\u16a0": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u16a2": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u16a6": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u16ab": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u16b1": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u16e3": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        }
+    }
+}

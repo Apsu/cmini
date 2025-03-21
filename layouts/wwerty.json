@@ -1,0 +1,127 @@
+{
+    "name": "wwerty",
+    "user": 736739510251028480,
+    "board": "stagger",
+    "keys": {
+        "\u03c9": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "w": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "e": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "r": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "t": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "y": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "u": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "o": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "p": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "a": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u05e6": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "d": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "f": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "h": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "j": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "k": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "l": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "z": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "x": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "v": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "b": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "m": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u0d28": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        ".": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        }
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "name": "emacs-training",
+    "user": 265692323873161218,
+    "board": "stagger",
+    "keys": {
+        "q": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "w": {
+            "row": 0,
+            "col": 1,
+            "finger": "LP"
+        },
+        "e": {
+            "row": 0,
+            "col": 2,
+            "finger": "LP"
+        },
+        "r": {
+            "row": 0,
+            "col": 3,
+            "finger": "LP"
+        },
+        "t": {
+            "row": 0,
+            "col": 4,
+            "finger": "LP"
+        },
+        "y": {
+            "row": 0,
+            "col": 5,
+            "finger": "LP"
+        },
+        "u": {
+            "row": 0,
+            "col": 6,
+            "finger": "LP"
+        },
+        "i": {
+            "row": 0,
+            "col": 7,
+            "finger": "LP"
+        },
+        "o": {
+            "row": 0,
+            "col": 8,
+            "finger": "LP"
+        },
+        "p": {
+            "row": 0,
+            "col": 9,
+            "finger": "LP"
+        },
+        "a": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "s": {
+            "row": 1,
+            "col": 1,
+            "finger": "LP"
+        },
+        "d": {
+            "row": 1,
+            "col": 2,
+            "finger": "LP"
+        },
+        "f": {
+            "row": 1,
+            "col": 3,
+            "finger": "LP"
+        },
+        "g": {
+            "row": 1,
+            "col": 4,
+            "finger": "LP"
+        },
+        "h": {
+            "row": 1,
+            "col": 5,
+            "finger": "LP"
+        },
+        "j": {
+            "row": 1,
+            "col": 6,
+            "finger": "LP"
+        },
+        "k": {
+            "row": 1,
+            "col": 7,
+            "finger": "LP"
+        },
+        "l": {
+            "row": 1,
+            "col": 8,
+            "finger": "LP"
+        },
+        ";": {
+            "row": 1,
+            "col": 9,
+            "finger": "LP"
+        },
+        "z": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "x": {
+            "row": 2,
+            "col": 1,
+            "finger": "LP"
+        },
+        "c": {
+            "row": 2,
+            "col": 2,
+            "finger": "LP"
+        },
+        "v": {
+            "row": 2,
+            "col": 3,
+            "finger": "LP"
+        },
+        "b": {
+            "row": 2,
+            "col": 4,
+            "finger": "LP"
+        },
+        "n": {
+            "row": 2,
+            "col": 5,
+            "finger": "LP"
+        },
+        "m": {
+            "row": 2,
+            "col": 6,
+            "finger": "LP"
+        }
+    }
+}

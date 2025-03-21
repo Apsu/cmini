@@ -1,5 +1,5 @@
 {
-    "name": "Eahi",
+    "name": "eahi",
     "user": 657688933001330718,
     "board": "ortho",
     "keys": {
@@ -13,7 +13,7 @@
             "col": 1,
             "finger": "LR"
         },
-        "d": {
+        "m": {
             "row": 0,
             "col": 2,
             "finger": "LM"
@@ -68,7 +68,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "m": {
+        "d": {
             "row": 1,
             "col": 3,
             "finger": "LI"
