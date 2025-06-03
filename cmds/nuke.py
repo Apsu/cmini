@@ -1,11 +1,25 @@
 from discord import Message
 import json, os
-from util import memory, authors, links
+from util import parser, memory, authors, links
 from admins import ADMINS
 
 RESTRICTED = False
 
 def exec(message: Message):
+    kwargs, err = parser.get_kwargs(message, str,
+                                    no-preserve-root=bool,
+                                    i-know-what-i-am-doing=bool,
+                                    )
+
+    if err is not None:
+        return str(err)
+
+    if not all(
+        kwargs['no-preserve-root'],
+        kwargs['i-know-what-i-am-doing'],
+    ):
+        return "🫵 <:grofl:1061054729058263141>"
+    
     name = message.author.name
     id = message.author.id
     try:
