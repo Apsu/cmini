@@ -1,164 +1,149 @@
 {
-    "name": "phi",
-    "user": 377291081542533121,
-    "board": "stagger",
+    "name": "ringless_thumbless_v2",
+    "user": 657688933001330718,
+    "board": "ortho",
     "keys": {
-        "'": {
+        "v": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "o": {
+        "r": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "u": {
+        "l": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        ".": {
+        "f": {
             "row": 0,
             "col": 3,
-            "finger": "LM"
+            "finger": "LI"
         },
-        "_": {
+        "k": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "q": {
+        "x": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "f": {
+        ",": {
             "row": 0,
             "col": 6,
             "finger": "RI"
         },
-        "r": {
+        "'": {
             "row": 0,
             "col": 7,
             "finger": "RM"
         },
-        "w": {
-            "row": 0,
-            "col": 8,
-            "finger": "RR"
-        },
-        "b": {
+        "g": {
             "row": 0,
             "col": 9,
             "finger": "RP"
         },
-        "x": {
+        "z": {
             "row": 0,
             "col": 10,
             "finger": "RP"
         },
-        "e": {
+        "s": {
             "row": 1,
             "col": 0,
             "finger": "LP"
         },
-        "a": {
+        "n": {
             "row": 1,
             "col": 1,
             "finger": "LR"
         },
-        "i": {
+        "t": {
             "row": 1,
             "col": 2,
             "finger": "LM"
         },
-        "l": {
+        "h": {
             "row": 1,
             "col": 3,
             "finger": "LI"
         },
-        "z": {
+        "y": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "p": {
+        "u": {
             "row": 1,
             "col": 5,
             "finger": "RI"
         },
-        "t": {
+        "a": {
             "row": 1,
             "col": 6,
             "finger": "RI"
         },
-        "n": {
+        "e": {
             "row": 1,
             "col": 7,
             "finger": "RM"
         },
         "c": {
             "row": 1,
-            "col": 8,
-            "finger": "RR"
-        },
-        "s": {
-            "row": 1,
             "col": 9,
             "finger": "RP"
         },
-        "v": {
+        "b": {
             "row": 1,
             "col": 10,
             "finger": "RP"
         },
-        "/": {
+        "j": {
             "row": 2,
             "col": 0,
-            "finger": "LR"
+            "finger": "LP"
         },
-        ",": {
+        "q": {
             "row": 2,
             "col": 1,
-            "finger": "LM"
-        },
-        "h": {
-            "row": 2,
-            "col": 2,
-            "finger": "LI"
+            "finger": "LR"
         },
         "m": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "d": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "\u0233": {
+        "p": {
             "row": 2,
             "col": 4,
-            "finger": "RI"
+            "finger": "LI"
         },
-        "d": {
+        ".": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "k": {
+        "i": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        "j": {
+        "o": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "g": {
-            "row": 2,
-            "col": 8,
-            "finger": "RR"
-        },
-        ";": {
+        "w": {
             "row": 2,
             "col": 9,
             "finger": "RP"

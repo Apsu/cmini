@@ -28,32 +28,32 @@
             "col": 4,
             "finger": "LI"
         },
-        ";": {
+        "z": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "f": {
+        "q": {
             "row": 0,
             "col": 6,
             "finger": "RI"
         },
-        "n": {
+        "r": {
             "row": 0,
             "col": 7,
             "finger": "RM"
         },
-        "d": {
+        "l": {
             "row": 0,
             "col": 8,
             "finger": "RR"
         },
-        "b": {
+        "f": {
             "row": 0,
             "col": 9,
             "finger": "RP"
         },
-        "x": {
+        "b": {
             "row": 0,
             "col": 10,
             "finger": "RP"
@@ -88,17 +88,17 @@
             "col": 5,
             "finger": "RI"
         },
-        "l": {
+        "t": {
             "row": 1,
             "col": 6,
             "finger": "RI"
         },
-        "r": {
+        "n": {
             "row": 1,
             "col": 7,
             "finger": "RM"
         },
-        "t": {
+        "h": {
             "row": 1,
             "col": 8,
             "finger": "RR"
@@ -108,7 +108,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "k": {
+        "v": {
             "row": 1,
             "col": 10,
             "finger": "RP"
@@ -136,29 +136,29 @@
         "\u0233": {
             "row": 2,
             "col": 4,
-            "finger": "LI"
+            "finger": "RI"
         },
-        "h": {
+        "d": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "q": {
+        "k": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        "j": {
+        "x": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "v": {
+        "j": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        "z": {
+        ";": {
             "row": 2,
             "col": 9,
             "finger": "RP"
