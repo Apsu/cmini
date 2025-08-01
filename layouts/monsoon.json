@@ -1,19 +1,19 @@
 {
     "name": "monsoon",
     "user": 1359836297015070760,
-    "board": "ortho",
+    "board": "angle",
     "keys": {
         "v": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "d": {
+        "l": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "l": {
+        "d": {
             "row": 0,
             "col": 2,
             "finger": "LM"
@@ -58,12 +58,12 @@
             "col": 0,
             "finger": "LP"
         },
-        "t": {
+        "h": {
             "row": 1,
             "col": 1,
             "finger": "LR"
         },
-        "h": {
+        "t": {
             "row": 1,
             "col": 2,
             "finger": "LM"
@@ -108,27 +108,27 @@
             "col": 10,
             "finger": "RP"
         },
-        "z": {
-            "row": 2,
-            "col": 0,
-            "finger": "LP"
-        },
         "k": {
             "row": 2,
-            "col": 1,
+            "col": 0,
             "finger": "LR"
         },
         "m": {
             "row": 2,
-            "col": 2,
+            "col": 1,
             "finger": "LM"
         },
         "p": {
             "row": 2,
-            "col": 3,
+            "col": 2,
             "finger": "LI"
         },
         "w": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "z": {
             "row": 2,
             "col": 4,
             "finger": "LI"
