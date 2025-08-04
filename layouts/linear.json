@@ -33,7 +33,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "r": {
+        "j": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -78,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "l": {
+        "x": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -133,12 +133,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "x": {
+        "l": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "j": {
+        "r": {
             "row": 2,
             "col": 6,
             "finger": "RI"
