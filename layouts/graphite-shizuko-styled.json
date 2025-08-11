@@ -1,9 +1,9 @@
 {
-    "name": "grape",
-    "user": 990947281857577002,
+    "name": "graphite-shizuko-styled",
+    "user": 657688933001330718,
     "board": "ortho",
     "keys": {
-        "q": {
+        "b": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -18,22 +18,22 @@
             "col": 2,
             "finger": "LM"
         },
-        "c": {
+        "w": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "v": {
+        "z": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "'": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "y": {
+        "f": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -48,9 +48,19 @@
             "col": 8,
             "finger": "RR"
         },
-        ",": {
+        "j": {
             "row": 0,
             "col": 9,
+            "finger": "RP"
+        },
+        ";": {
+            "row": 0,
+            "col": 10,
+            "finger": "RP"
+        },
+        "=": {
+            "row": 0,
+            "col": 11,
             "finger": "RP"
         },
         "n": {
@@ -78,7 +88,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "p": {
+        "y": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -103,12 +113,12 @@
             "col": 9,
             "finger": "RP"
         },
-        "/": {
+        ",": {
             "row": 1,
             "col": 10,
             "finger": "RP"
         },
-        "z": {
+        "q": {
             "row": 2,
             "col": 0,
             "finger": "LP"
@@ -121,14 +131,14 @@
         "m": {
             "row": 2,
             "col": 2,
-            "finger": "LM"
+            "finger": "LI"
         },
-        "w": {
+        "c": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "b": {
+        "v": {
             "row": 2,
             "col": 4,
             "finger": "LI"
@@ -138,22 +148,22 @@
             "col": 5,
             "finger": "RI"
         },
-        "f": {
+        "p": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        "'": {
+        ".": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        ";": {
+        "-": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        ".": {
+        "/": {
             "row": 2,
             "col": 9,
             "finger": "RP"
