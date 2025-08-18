@@ -1,9 +1,9 @@
 {
-    "name": "fugue-",
+    "name": "glyph",
     "user": 377291081542533121,
     "board": "stagger",
     "keys": {
-        ";": {
+        "j": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -28,12 +28,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "q": {
+        ";": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "p": {
+        "f": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -73,12 +73,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "s": {
+        "t": {
             "row": 1,
             "col": 3,
             "finger": "LI"
         },
-        "y": {
+        "p": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -88,7 +88,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "h": {
+        "d": {
             "row": 1,
             "col": 6,
             "finger": "RI"
@@ -98,7 +98,7 @@
             "col": 7,
             "finger": "RM"
         },
-        "t": {
+        "s": {
             "row": 1,
             "col": 8,
             "finger": "RR"
@@ -123,7 +123,7 @@
             "col": 1,
             "finger": "LM"
         },
-        "f": {
+        "k": {
             "row": 2,
             "col": 2,
             "finger": "LI"
@@ -133,27 +133,27 @@
             "col": 3,
             "finger": "LI"
         },
-        "\u1e07": {
+        "\u0233": {
             "row": 2,
             "col": 4,
-            "finger": "RI"
+            "finger": "LI"
         },
-        "d": {
+        "h": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "k": {
+        "b": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        "z": {
+        "q": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "j": {
+        "z": {
             "row": 2,
             "col": 8,
             "finger": "RR"
