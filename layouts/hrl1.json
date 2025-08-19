@@ -1,7 +1,7 @@
 {
     "name": "hrl1",
     "user": 1359836297015070760,
-    "board": "ortho",
+    "board": "stagger",
     "keys": {
         "f": {
             "row": 0,
@@ -108,6 +108,11 @@
             "col": 10,
             "finger": "RP"
         },
+        "z": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
         "x": {
             "row": 2,
             "col": 1,
@@ -127,11 +132,6 @@
             "row": 2,
             "col": 4,
             "finger": "LI"
-        },
-        "z": {
-            "row": 2,
-            "col": 0,
-            "finger": "LP"
         },
         "k": {
             "row": 2,
