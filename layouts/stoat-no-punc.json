@@ -1,5 +1,5 @@
 {
-    "name": "stoat-punc",
+    "name": "stoat-no-punc",
     "user": 782784290769207336,
     "board": "ortho",
     "keys": {
@@ -43,12 +43,12 @@
             "col": 7,
             "finger": "RM"
         },
-        "/": {
+        "z": {
             "row": 0,
             "col": 8,
             "finger": "RR"
         },
-        ",": {
+        ">": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -103,7 +103,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "'": {
+        "/": {
             "row": 2,
             "col": 0,
             "finger": "LP"
@@ -123,16 +123,6 @@
             "col": 3,
             "finger": "LI"
         },
-        ";": {
-            "row": 2,
-            "col": 4,
-            "finger": "LI"
-        },
-        "z": {
-            "row": 2,
-            "col": 5,
-            "finger": "RI"
-        },
         "v": {
             "row": 2,
             "col": 6,
@@ -143,7 +133,7 @@
             "col": 7,
             "finger": "RM"
         },
-        ".": {
+        "\\": {
             "row": 2,
             "col": 9,
             "finger": "RP"
