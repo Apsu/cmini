@@ -123,12 +123,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "z": {
+        "j": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        ";": {
+        "z": {
             "row": 2,
             "col": 5,
             "finger": "RI"
@@ -138,12 +138,12 @@
             "col": 6,
             "finger": "RI"
         },
-        "/": {
+        ";": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "j": {
+        "/": {
             "row": 2,
             "col": 8,
             "finger": "RR"
