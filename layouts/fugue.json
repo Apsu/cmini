@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "b": {
+        "w": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -123,7 +123,7 @@
             "col": 1,
             "finger": "LM"
         },
-        "w": {
+        "b": {
             "row": 2,
             "col": 2,
             "finger": "LI"
