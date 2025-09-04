@@ -28,12 +28,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "q": {
+        "x": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "p": {
+        "f": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -48,12 +48,12 @@
             "col": 8,
             "finger": "RR"
         },
-        "f": {
+        "p": {
             "row": 0,
             "col": 9,
             "finger": "RP"
         },
-        "b": {
+        "v": {
             "row": 0,
             "col": 10,
             "finger": "RP"
@@ -73,7 +73,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "c": {
+        "d": {
             "row": 1,
             "col": 3,
             "finger": "LI"
@@ -83,12 +83,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "m": {
+        "b": {
             "row": 1,
             "col": 5,
             "finger": "RI"
         },
-        "t": {
+        "m": {
             "row": 1,
             "col": 6,
             "finger": "RI"
@@ -103,12 +103,12 @@
             "col": 8,
             "finger": "RR"
         },
-        "h": {
+        "t": {
             "row": 1,
             "col": 9,
             "finger": "RP"
         },
-        "x": {
+        "q": {
             "row": 1,
             "col": 10,
             "finger": "RP"
@@ -128,7 +128,7 @@
             "col": 2,
             "finger": "LI"
         },
-        "d": {
+        "c": {
             "row": 2,
             "col": 3,
             "finger": "LI"
@@ -138,7 +138,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "v": {
+        "h": {
             "row": 2,
             "col": 5,
             "finger": "RI"
@@ -148,12 +148,12 @@
             "col": 6,
             "finger": "RI"
         },
-        "z": {
+        "j": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "j": {
+        "z": {
             "row": 2,
             "col": 8,
             "finger": "RR"
