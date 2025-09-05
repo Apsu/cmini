@@ -1,29 +1,29 @@
 {
-    "name": "gstoia",
+    "name": "psm",
     "user": 782784290769207336,
     "board": "ortho",
     "keys": {
-        "g": {
+        "b": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "p": {
+        "l": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "l": {
+        "c": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "d": {
+        "w": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "w": {
+        "g": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -33,7 +33,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "c": {
+        "p": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -53,17 +53,17 @@
             "col": 9,
             "finger": "RP"
         },
-        "s": {
+        "n": {
             "row": 1,
             "col": 0,
             "finger": "LP"
         },
-        "n": {
+        "r": {
             "row": 1,
             "col": 1,
             "finger": "LR"
         },
-        "r": {
+        "t": {
             "row": 1,
             "col": 2,
             "finger": "LM"
@@ -73,7 +73,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "m": {
+        "d": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -83,7 +83,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "t": {
+        "s": {
             "row": 1,
             "col": 6,
             "finger": "RI"
@@ -108,22 +108,22 @@
             "col": 0,
             "finger": "LP"
         },
-        "b": {
+        "x": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "x": {
+        "j": {
             "row": 2,
             "col": 2,
             "finger": "LM"
         },
-        "f": {
+        "k": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "j": {
+        "f": {
             "row": 2,
             "col": 4,
             "finger": "LI"
@@ -133,17 +133,17 @@
             "col": 5,
             "finger": "RI"
         },
-        "k": {
+        "m": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        ";": {
+        "/": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "/": {
+        ";": {
             "row": 2,
             "col": 8,
             "finger": "RR"
