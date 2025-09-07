@@ -23,12 +23,12 @@
             "col": 3,
             "finger": "LM"
         },
-        "_": {
+        "x": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "x": {
+        "_": {
             "row": 0,
             "col": 5,
             "finger": "RI"
