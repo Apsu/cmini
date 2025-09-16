@@ -1,9 +1,9 @@
 {
     "name": "darts",
     "user": 1382706595754020936,
-    "board": "angle",
+    "board": "stagger",
     "keys": {
-        "q": {
+        ";": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -18,7 +18,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "l": {
+        "h": {
             "row": 0,
             "col": 3,
             "finger": "LI"
@@ -33,7 +33,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "h": {
+        "p": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -51,6 +51,11 @@
         "f": {
             "row": 0,
             "col": 9,
+            "finger": "RP"
+        },
+        "q": {
+            "row": 0,
+            "col": 10,
             "finger": "RP"
         },
         "e": {
@@ -73,7 +78,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "w": {
+        "l": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -128,17 +133,17 @@
             "col": 3,
             "finger": "LI"
         },
-        "'": {
+        "\\": {
             "row": 2,
             "col": 4,
             "finger": "RI"
         },
-        ";": {
+        "'": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "p": {
+        "w": {
             "row": 2,
             "col": 6,
             "finger": "RI"
