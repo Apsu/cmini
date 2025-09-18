@@ -63,12 +63,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "*": {
+        "k": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "k": {
+        "p": {
             "row": 1,
             "col": 5,
             "finger": "RI"
