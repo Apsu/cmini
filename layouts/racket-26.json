@@ -18,7 +18,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "y": {
+        "w": {
             "row": 0,
             "col": 3,
             "finger": "LI"
@@ -73,7 +73,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "w": {
+        "y": {
             "row": 1,
             "col": 4,
             "finger": "LI"
