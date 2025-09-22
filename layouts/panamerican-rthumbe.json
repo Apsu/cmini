@@ -1,0 +1,177 @@
+{
+    "name": "panamerican-rthumbe",
+    "user": 1382706595754020936,
+    "board": "stagger",
+    "keys": {
+        "\u00e7": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "g": {
+            "row": 0,
+            "col": 1,
+            "finger": "LP"
+        },
+        "j": {
+            "row": 0,
+            "col": 2,
+            "finger": "LR"
+        },
+        "d": {
+            "row": 0,
+            "col": 3,
+            "finger": "LM"
+        },
+        "f": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "b": {
+            "row": 0,
+            "col": 5,
+            "finger": "LI"
+        },
+        "/": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "l": {
+            "row": 0,
+            "col": 7,
+            "finger": "RI"
+        },
+        "u": {
+            "row": 0,
+            "col": 8,
+            "finger": "RM"
+        },
+        "q": {
+            "row": 0,
+            "col": 9,
+            "finger": "RR"
+        },
+        "'": {
+            "row": 0,
+            "col": 10,
+            "finger": "RP"
+        },
+        "`": {
+            "row": 0,
+            "col": 11,
+            "finger": "RP"
+        },
+        "\\": {
+            "row": 0,
+            "col": 12,
+            "finger": "RP"
+        },
+        "y": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "c": {
+            "row": 1,
+            "col": 1,
+            "finger": "LP"
+        },
+        "s": {
+            "row": 1,
+            "col": 2,
+            "finger": "LR"
+        },
+        "t": {
+            "row": 1,
+            "col": 3,
+            "finger": "LM"
+        },
+        "h": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "p": {
+            "row": 1,
+            "col": 5,
+            "finger": "LI"
+        },
+        ";": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "n": {
+            "row": 1,
+            "col": 7,
+            "finger": "RI"
+        },
+        "i": {
+            "row": 1,
+            "col": 8,
+            "finger": "RM"
+        },
+        "a": {
+            "row": 1,
+            "col": 9,
+            "finger": "RR"
+        },
+        "o": {
+            "row": 1,
+            "col": 10,
+            "finger": "RP"
+        },
+        "w": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "v": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "m": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "z": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "k": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u00f1": {
+            "row": 2,
+            "col": 5,
+            "finger": "LI"
+        },
+        "x": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "r": {
+            "row": 2,
+            "col": 7,
+            "finger": "RI"
+        },
+        ",": {
+            "row": 2,
+            "col": 8,
+            "finger": "RM"
+        },
+        ".": {
+            "row": 2,
+            "col": 9,
+            "finger": "RR"
+        }
+    }
+}
