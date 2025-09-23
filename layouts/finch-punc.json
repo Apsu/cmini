@@ -1,5 +1,5 @@
 {
-    "name": "canarE",
+    "name": "finch-punc",
     "user": 581630432265895957,
     "board": "ortho",
     "keys": {
@@ -43,7 +43,7 @@
             "col": 7,
             "finger": "RM"
         },
-        ",": {
+        "j": {
             "row": 0,
             "col": 8,
             "finger": "RR"
@@ -108,7 +108,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "j": {
+        "x": {
             "row": 2,
             "col": 1,
             "finger": "LR"
@@ -138,7 +138,7 @@
             "col": 6,
             "finger": "RI"
         },
-        "x": {
+        ",": {
             "row": 2,
             "col": 7,
             "finger": "RM"
