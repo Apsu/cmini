@@ -18,10 +18,10 @@
             "col": 2,
             "finger": "LM"
         },
-        ".": {
+        "y": {
             "row": 0,
             "col": 3,
-            "finger": "LM"
+            "finger": "LI"
         },
         "'": {
             "row": 0,
@@ -133,7 +133,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "\u0233": {
+        ".": {
             "row": 2,
             "col": 4,
             "finger": "LI"
