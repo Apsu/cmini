@@ -1,9 +1,9 @@
 {
-    "name": "hadrian",
+    "name": "Inscroll-ortho",
     "user": 1382706595754020936,
     "board": "ortho",
     "keys": {
-        ",": {
+        "'": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -23,7 +23,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "l": {
+        "q": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -53,12 +53,12 @@
             "col": 9,
             "finger": "RP"
         },
-        "\\": {
+        "-": {
             "row": 0,
             "col": 10,
             "finger": "RP"
         },
-        "i": {
+        "e": {
             "row": 1,
             "col": 0,
             "finger": "LP"
@@ -68,7 +68,7 @@
             "col": 1,
             "finger": "LR"
         },
-        "e": {
+        "i": {
             "row": 1,
             "col": 2,
             "finger": "LM"
@@ -78,7 +78,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "q": {
+        "l": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -113,27 +113,27 @@
             "col": 10,
             "finger": "RP"
         },
-        ".": {
+        "\\": {
             "row": 2,
             "col": 0,
             "finger": "LP"
         },
-        "'": {
+        ",": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "/": {
+        ".": {
             "row": 2,
             "col": 2,
             "finger": "LM"
         },
-        ";": {
+        "x": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "x": {
+        ";": {
             "row": 2,
             "col": 4,
             "finger": "LI"
@@ -163,7 +163,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "\u00e7": {
+        "/": {
             "row": 2,
             "col": 10,
             "finger": "RP"
