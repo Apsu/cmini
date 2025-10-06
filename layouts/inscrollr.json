@@ -23,12 +23,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "/": {
+        "\u00f1": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "z": {
+        "v": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -43,12 +43,12 @@
             "col": 7,
             "finger": "RM"
         },
-        "v": {
+        "b": {
             "row": 0,
             "col": 8,
             "finger": "RR"
         },
-        "g": {
+        "j": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -78,12 +78,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "\u00f1": {
+        "z": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "p": {
+        "y": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -108,10 +108,15 @@
             "col": 9,
             "finger": "RP"
         },
-        "y": {
+        "\u00e7": {
             "row": 1,
             "col": 10,
             "finger": "RP"
+        },
+        ";": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
         },
         ",": {
             "row": 2,
@@ -133,17 +138,12 @@
             "col": 4,
             "finger": "LI"
         },
-        ";": {
-            "row": 2,
-            "col": 0,
-            "finger": "LP"
-        },
         "k": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "b": {
+        "p": {
             "row": 2,
             "col": 6,
             "finger": "RI"
@@ -153,7 +153,7 @@
             "col": 7,
             "finger": "RM"
         },
-        "j": {
+        "g": {
             "row": 2,
             "col": 8,
             "finger": "RR"
@@ -163,7 +163,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "\u00e7": {
+        "/": {
             "row": 2,
             "col": 10,
             "finger": "RP"
