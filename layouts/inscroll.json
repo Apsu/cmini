@@ -23,7 +23,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "z": {
+        "l": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -38,27 +38,27 @@
             "col": 6,
             "finger": "RI"
         },
-        "p": {
+        "f": {
             "row": 0,
             "col": 7,
             "finger": "RI"
         },
-        "m": {
+        "d": {
             "row": 0,
             "col": 8,
             "finger": "RM"
         },
-        "c": {
+        "g": {
             "row": 0,
             "col": 9,
             "finger": "RR"
         },
-        "b": {
+        "j": {
             "row": 0,
             "col": 10,
             "finger": "RP"
         },
-        "j": {
+        "w": {
             "row": 0,
             "col": 11,
             "finger": "RP"
@@ -88,7 +88,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "l": {
+        "z": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -98,7 +98,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "y": {
+        "v": {
             "row": 1,
             "col": 6,
             "finger": "RI"
@@ -113,12 +113,12 @@
             "col": 8,
             "finger": "RM"
         },
-        "d": {
+        "s": {
             "row": 1,
             "col": 9,
             "finger": "RR"
         },
-        "s": {
+        "c": {
             "row": 1,
             "col": 10,
             "finger": "RP"
@@ -153,22 +153,22 @@
             "col": 5,
             "finger": "RI"
         },
-        "v": {
+        "y": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        "f": {
+        "p": {
             "row": 2,
             "col": 7,
             "finger": "RI"
         },
-        "g": {
+        "m": {
             "row": 2,
             "col": 8,
             "finger": "RM"
         },
-        "w": {
+        "b": {
             "row": 2,
             "col": 9,
             "finger": "RR"
