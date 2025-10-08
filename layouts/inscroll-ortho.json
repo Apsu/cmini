@@ -128,12 +128,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "x": {
+        "z": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "z": {
+        "x": {
             "row": 2,
             "col": 4,
             "finger": "LI"
