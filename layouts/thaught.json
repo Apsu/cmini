@@ -13,7 +13,7 @@
             "col": 1,
             "finger": "LR"
         },
-        "k": {
+        "d": {
             "row": 0,
             "col": 2,
             "finger": "LM"
@@ -113,7 +113,7 @@
             "col": 1,
             "finger": "LR"
         },
-        "d": {
+        "k": {
             "row": 2,
             "col": 2,
             "finger": "LM"
