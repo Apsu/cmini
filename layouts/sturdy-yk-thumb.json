@@ -1,7 +1,7 @@
 {
     "name": "sturdy-yk-thumb",
     "user": 383900587877597186,
-    "board": "ortho",
+    "board": "angle",
     "keys": {
         "v": {
             "row": 0,
@@ -23,7 +23,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "p": {
+        "\u03bc": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -73,7 +73,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "\u03bc": {
+        "p": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -105,27 +105,27 @@
         },
         "z": {
             "row": 2,
-            "col": 0,
-            "finger": "LP"
+            "col": 4,
+            "finger": "LI"
         },
         "\u03c6": {
             "row": 2,
-            "col": 1,
+            "col": 0,
             "finger": "LR"
         },
         "q": {
             "row": 2,
-            "col": 2,
+            "col": 1,
             "finger": "LM"
         },
         "g": {
             "row": 2,
-            "col": 3,
+            "col": 2,
             "finger": "LI"
         },
         "w": {
             "row": 2,
-            "col": 4,
+            "col": 3,
             "finger": "LI"
         },
         "b": {
