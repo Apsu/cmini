@@ -1,5 +1,5 @@
 {
-    "name": "Pine",
+    "name": "pine-v35",
     "user": 514971722626367517,
     "board": "ortho",
     "keys": {
@@ -153,6 +153,5 @@
             "col": 9,
             "finger": "RP"
         }
-    },
-    "free": []
+    }
 }
