@@ -1,7 +1,7 @@
 {
     "name": "stronk-thumbn",
     "user": 383900587877597186,
-    "board": "ortho",
+    "board": "angle",
     "keys": {
         "f": {
             "row": 0,
@@ -28,7 +28,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "z": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        ",": {
+        "j": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -103,27 +103,27 @@
             "col": 9,
             "finger": "RP"
         },
-        "z": {
-            "row": 2,
-            "col": 0,
-            "finger": "LP"
-        },
         "q": {
             "row": 2,
-            "col": 1,
+            "col": 0,
             "finger": "LR"
         },
         "x": {
             "row": 2,
-            "col": 2,
+            "col": 1,
             "finger": "LM"
         },
         "p": {
             "row": 2,
+            "col": 2,
+            "finger": "LI"
+        },
+        "\u2042": {
+            "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "_": {
+        ",": {
             "row": 2,
             "col": 4,
             "finger": "LI"
