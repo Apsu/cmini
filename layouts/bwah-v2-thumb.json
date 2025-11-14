@@ -128,12 +128,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "v": {
+        "/": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "/": {
+        "v": {
             "row": 2,
             "col": 6,
             "finger": "RI"
