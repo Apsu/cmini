@@ -6,7 +6,7 @@
         "q": {
             "row": 0,
             "col": 0,
-            "finger": "LP"
+            "finger": "LR"
         },
         "h": {
             "row": 0,
@@ -51,7 +51,7 @@
         "b": {
             "row": 0,
             "col": 9,
-            "finger": "RP"
+            "finger": "RR"
         },
         "j": {
             "row": 1,
