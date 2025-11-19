@@ -1,7 +1,7 @@
 {
     "name": "spren",
     "user": 265692323873161218,
-    "board": "ortho",
+    "board": "stagger",
     "keys": {
         "p": {
             "row": 0,
@@ -18,12 +18,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "b": {
+        "r": {
             "row": 0,
             "col": 3,
-            "finger": "LI"
+            "finger": "LM"
         },
-        "v": {
+        "g": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -63,7 +63,7 @@
             "col": 1,
             "finger": "LR"
         },
-        "r": {
+        "h": {
             "row": 1,
             "col": 2,
             "finger": "LM"
@@ -103,27 +103,27 @@
             "col": 9,
             "finger": "RP"
         },
-        "q": {
-            "row": 2,
-            "col": 0,
-            "finger": "LP"
-        },
         "k": {
             "row": 2,
-            "col": 1,
+            "col": 0,
             "finger": "LR"
         },
-        "h": {
+        "q": {
             "row": 2,
-            "col": 2,
+            "col": 1,
             "finger": "LM"
         },
-        "g": {
+        "w": {
+            "row": 2,
+            "col": 2,
+            "finger": "LI"
+        },
+        "b": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "w": {
+        "v": {
             "row": 2,
             "col": 4,
             "finger": "LI"
