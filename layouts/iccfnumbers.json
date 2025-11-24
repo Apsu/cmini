@@ -1,0 +1,57 @@
+{
+    "name": "iccfnumbers",
+    "user": 1297727520518705184,
+    "board": "ortho",
+    "keys": {
+        "1": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "2": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "3": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "4": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "9": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "0": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "5": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "6": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "7": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "8": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}
