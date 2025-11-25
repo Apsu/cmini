@@ -3,7 +3,7 @@
     "user": 1179652661033836655,
     "board": "angle",
     "keys": {
-        "b": {
+        "q": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -73,7 +73,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "q": {
+        "b": {
             "row": 1,
             "col": 4,
             "finger": "LI"
