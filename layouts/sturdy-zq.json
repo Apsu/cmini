@@ -1,5 +1,5 @@
 {
-    "name": "sturdy-nova-mod",
+    "name": "sturdy-zq",
     "user": 554549441458077697,
     "board": "angle",
     "keys": {
@@ -23,12 +23,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "j": {
+        "p": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "z": {
+        "x": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -48,14 +48,9 @@
             "col": 8,
             "finger": "RR"
         },
-        "-": {
+        "j": {
             "row": 0,
             "col": 9,
-            "finger": "RP"
-        },
-        ";": {
-            "row": 0,
-            "col": 10,
             "finger": "RP"
         },
         "s": {
@@ -83,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "p": {
+        ".": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -108,7 +103,7 @@
             "col": 9,
             "finger": "RP"
         },
-        ",": {
+        "-": {
             "row": 1,
             "col": 10,
             "finger": "RP"
@@ -118,7 +113,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "x": {
+        "z": {
             "row": 2,
             "col": 1,
             "finger": "LR"
@@ -138,12 +133,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "h": {
+        "b": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "b": {
+        "h": {
             "row": 2,
             "col": 6,
             "finger": "RI"
@@ -153,12 +148,12 @@
             "col": 7,
             "finger": "RM"
         },
-        "/": {
+        ";": {
             "row": 2,
             "col": 8,
             "finger": "RP"
         },
-        ".": {
+        ",": {
             "row": 2,
             "col": 9,
             "finger": "RP"
