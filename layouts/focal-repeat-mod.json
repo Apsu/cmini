@@ -1,89 +1,84 @@
 {
-    "name": "kal",
-    "user": 265692323873161218,
-    "board": "stagger",
+    "name": "focal-repeat-mod",
+    "user": 82004107568615424,
+    "board": "ortho",
     "keys": {
-        "y": {
+        "v": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "o": {
+        "l": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "u": {
+        "h": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "r": {
+        "g": {
             "row": 0,
             "col": 3,
+            "finger": "LI"
+        },
+        "k": {
+            "row": 0,
+            "col": 4,
             "finger": "LI"
         },
         "q": {
             "row": 0,
-            "col": 4,
-            "finger": "LI"
-        },
-        "z": {
-            "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "g": {
+        "f": {
             "row": 0,
             "col": 6,
             "finger": "RI"
         },
-        "l": {
+        "o": {
             "row": 0,
             "col": 7,
             "finger": "RM"
         },
-        "d": {
+        "u": {
             "row": 0,
             "col": 8,
             "finger": "RR"
         },
-        "f": {
+        "j": {
             "row": 0,
             "col": 9,
             "finger": "RP"
         },
-        "/": {
-            "row": 0,
-            "col": 10,
-            "finger": "RP"
-        },
-        "i": {
+        "s": {
             "row": 1,
             "col": 0,
             "finger": "LP"
         },
-        "a": {
+        "r": {
             "row": 1,
             "col": 1,
             "finger": "LR"
         },
-        "e": {
+        "n": {
             "row": 1,
             "col": 2,
             "finger": "LM"
         },
-        "n": {
+        "t": {
             "row": 1,
             "col": 3,
             "finger": "LI"
         },
-        "j": {
+        "p": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "k": {
+        "y": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -93,52 +88,47 @@
             "col": 6,
             "finger": "RI"
         },
-        "h": {
+        "a": {
             "row": 1,
             "col": 7,
             "finger": "RM"
         },
-        "t": {
+        "e": {
             "row": 1,
             "col": 8,
             "finger": "RR"
         },
-        "s": {
+        "i": {
             "row": 1,
             "col": 9,
             "finger": "RP"
         },
-        "-": {
-            "row": 1,
-            "col": 10,
-            "finger": "RP"
-        },
-        ".": {
+        "z": {
             "row": 2,
             "col": 0,
-            "finger": "LR"
-        },
-        ",": {
-            "row": 2,
-            "col": 1,
-            "finger": "LM"
-        },
-        "b": {
-            "row": 2,
-            "col": 2,
-            "finger": "LI"
+            "finger": "LP"
         },
         "x": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "m": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "d": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        ";": {
+        "b": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "'": {
+        "*": {
             "row": 2,
             "col": 5,
             "finger": "RI"
@@ -148,17 +138,17 @@
             "col": 6,
             "finger": "RI"
         },
-        "m": {
+        ".": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "p": {
+        "'": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        "v": {
+        ",": {
             "row": 2,
             "col": 9,
             "finger": "RP"
