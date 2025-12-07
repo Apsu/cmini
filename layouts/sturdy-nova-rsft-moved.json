@@ -1,5 +1,5 @@
 {
-    "name": "nova-test",
+    "name": "sturdy-nova-rsft-moved",
     "user": 554549441458077697,
     "board": "angle",
     "keys": {
@@ -23,17 +23,17 @@
             "col": 3,
             "finger": "LI"
         },
-        "j": {
+        "p": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "z": {
+        "6": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "f": {
+        "x": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -48,12 +48,12 @@
             "col": 8,
             "finger": "RR"
         },
-        "-": {
+        "j": {
             "row": 0,
             "col": 9,
             "finger": "RP"
         },
-        ";": {
+        "-": {
             "row": 0,
             "col": 10,
             "finger": "RP"
@@ -83,7 +83,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "p": {
+        "f": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -108,7 +108,7 @@
             "col": 9,
             "finger": "RP"
         },
-        ",": {
+        ".": {
             "row": 1,
             "col": 10,
             "finger": "RP"
@@ -118,7 +118,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "x": {
+        "z": {
             "row": 2,
             "col": 1,
             "finger": "LR"
@@ -153,7 +153,7 @@
             "col": 7,
             "finger": "RM"
         },
-        ".": {
+        ",": {
             "row": 2,
             "col": 8,
             "finger": "RP"
@@ -163,7 +163,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "/": {
+        ";": {
             "row": 2,
             "col": 10,
             "finger": "RP"

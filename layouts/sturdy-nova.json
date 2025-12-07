@@ -28,6 +28,11 @@
             "col": 4,
             "finger": "LI"
         },
+        "6": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
         "x": {
             "row": 0,
             "col": 6,
@@ -108,11 +113,6 @@
             "col": 10,
             "finger": "RP"
         },
-        ";": {
-            "row": 1,
-            "col": 11,
-            "finger": "RP"
-        },
         "k": {
             "row": 2,
             "col": 0,
@@ -158,7 +158,7 @@
             "col": 8,
             "finger": "RP"
         },
-        "/": {
+        ";": {
             "row": 2,
             "col": 9,
             "finger": "RP"
