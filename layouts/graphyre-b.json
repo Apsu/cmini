@@ -1,9 +1,9 @@
 {
-    "name": "graphite-my",
+    "name": "graphyre-b",
     "user": 1215831841638977609,
     "board": "ortho",
     "keys": {
-        "q": {
+        "z": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -23,12 +23,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "v": {
+        "b": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "k": {
+        "j": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "'": {
+        ",": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -78,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "p": {
+        "*": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -108,7 +108,7 @@
             "col": 10,
             "finger": "RP"
         },
-        "b": {
+        "p": {
             "row": 2,
             "col": 0,
             "finger": "LP"
@@ -118,7 +118,7 @@
             "col": 1,
             "finger": "LR"
         },
-        "*": {
+        "q": {
             "row": 2,
             "col": 2,
             "finger": "LM"
@@ -128,12 +128,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "z": {
+        "v": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "k": {
             "row": 2,
             "col": 5,
             "finger": "RI"
@@ -143,17 +143,17 @@
             "col": 6,
             "finger": "RI"
         },
-        ",": {
+        "'": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        ".": {
+        "y": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        "y": {
+        ".": {
             "row": 2,
             "col": 9,
             "finger": "RP"

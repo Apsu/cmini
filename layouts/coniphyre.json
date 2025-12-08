@@ -1,9 +1,9 @@
 {
-    "name": "graphite-fire-magic",
+    "name": "coniphyre",
     "user": 1215831841638977609,
     "board": "ortho",
     "keys": {
-        "q": {
+        "z": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -13,7 +13,7 @@
             "col": 1,
             "finger": "LR"
         },
-        "d": {
+        "c": {
             "row": 0,
             "col": 2,
             "finger": "LM"
@@ -23,12 +23,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "z": {
+        "v": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "x": {
+        "j": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "j": {
+        "/": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -63,12 +63,12 @@
             "col": 1,
             "finger": "LR"
         },
-        "t": {
+        "s": {
             "row": 1,
             "col": 2,
             "finger": "LM"
         },
-        "s": {
+        "t": {
             "row": 1,
             "col": 3,
             "finger": "LI"
@@ -78,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "y": {
+        "*": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -113,32 +113,32 @@
             "col": 0,
             "finger": "LP"
         },
-        "*": {
+        "x": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "b": {
+        "q": {
             "row": 2,
             "col": 2,
             "finger": "LM"
         },
-        "c": {
+        "m": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "v": {
+        "k": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "k": {
+        "b": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "m": {
+        "d": {
             "row": 2,
             "col": 6,
             "finger": "RI"
@@ -148,7 +148,7 @@
             "col": 7,
             "finger": "RM"
         },
-        "/": {
+        "y": {
             "row": 2,
             "col": 8,
             "finger": "RR"
