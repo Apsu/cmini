@@ -1,8 +1,13 @@
 {
     "name": "pre-qwerty-1870",
     "user": 409742945294483456,
-    "board": "ortho",
+    "board": "angle",
     "keys": {
+        "_": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
         "a": {
             "row": 0,
             "col": 1,
@@ -101,17 +106,17 @@
         "z": {
             "row": 2,
             "col": 0,
-            "finger": "LP"
+            "finger": "LR"
         },
         "x": {
             "row": 2,
             "col": 1,
-            "finger": "LR"
+            "finger": "LM"
         },
         "w": {
             "row": 2,
             "col": 2,
-            "finger": "LM"
+            "finger": "LI"
         },
         "v": {
             "row": 2,
