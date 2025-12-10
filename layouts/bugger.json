@@ -1,5 +1,5 @@
 {
-    "name": "nordmin",
+    "name": "bugger",
     "user": 668065238070984744,
     "board": "ortho",
     "keys": {
@@ -38,7 +38,7 @@
             "col": 13,
             "finger": "RP"
         },
-        "p": {
+        "v": {
             "row": 1,
             "col": 14,
             "finger": "RP"
@@ -53,7 +53,7 @@
             "col": 18,
             "finger": "RP"
         },
-        "q": {
+        "j": {
             "row": 1,
             "col": 19,
             "finger": "RP"
@@ -63,12 +63,12 @@
             "col": 20,
             "finger": "RP"
         },
-        "r": {
+        "n": {
             "row": 2,
             "col": 0,
             "finger": "LP"
         },
-        "n": {
+        "r": {
             "row": 2,
             "col": 1,
             "finger": "LR"
@@ -103,12 +103,12 @@
             "col": 9,
             "finger": "RP"
         },
-        "w": {
+        "p": {
             "row": 2,
             "col": 12,
             "finger": "RP"
         },
-        "v": {
+        "w": {
             "row": 2,
             "col": 13,
             "finger": "RP"
@@ -128,7 +128,7 @@
             "col": 18,
             "finger": "RP"
         },
-        "j": {
+        "q": {
             "row": 2,
             "col": 19,
             "finger": "RP"
