@@ -11,47 +11,47 @@
         "#": {
             "row": 0,
             "col": 1,
-            "finger": "LR"
+            "finger": "LP"
         },
         "t": {
             "row": 0,
             "col": 2,
-            "finger": "LM"
+            "finger": "LR"
         },
         "p": {
             "row": 0,
             "col": 3,
-            "finger": "LI"
+            "finger": "LM"
         },
         "h": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "^": {
+        "%": {
             "row": 0,
             "col": 5,
-            "finger": "RI"
+            "finger": "LI"
         },
-        "e": {
+        "d": {
             "row": 0,
             "col": 7,
-            "finger": "RM"
+            "finger": "RI"
         },
         "l": {
             "row": 0,
             "col": 8,
-            "finger": "RR"
+            "finger": "RI"
         },
         "\ud835\ude99": {
             "row": 0,
             "col": 9,
-            "finger": "RP"
+            "finger": "RM"
         },
         "f": {
             "row": 0,
             "col": 10,
-            "finger": "RP"
+            "finger": "RR"
         },
         "\ud835\ude9d": {
             "row": 0,
@@ -66,17 +66,17 @@
         "+": {
             "row": 1,
             "col": 1,
-            "finger": "LR"
+            "finger": "LP"
         },
         "s": {
             "row": 1,
             "col": 2,
-            "finger": "LM"
+            "finger": "LR"
         },
         "w": {
             "row": 1,
             "col": 3,
-            "finger": "LI"
+            "finger": "LM"
         },
         "r": {
             "row": 1,
@@ -86,41 +86,51 @@
         "\ud835\ude9b": {
             "row": 1,
             "col": 8,
-            "finger": "RR"
+            "finger": "RI"
         },
         "k": {
             "row": 1,
             "col": 9,
-            "finger": "RP"
-        },
-        "g": {
-            "row": 1,
-            "col": 10,
-            "finger": "RP"
+            "finger": "RM"
         },
         "\ud835\ude9c": {
             "row": 1,
+            "col": 10,
+            "finger": "RR"
+        },
+        "*": {
+            "row": 1,
             "col": 11,
             "finger": "RP"
+        },
+        "u": {
+            "row": 2,
+            "col": 3,
+            "finger": "LM"
         },
         "a": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "o": {
-            "row": 2,
-            "col": 5,
-            "finger": "RI"
-        },
         "i": {
             "row": 2,
-            "col": 6,
-            "finger": "RI"
+            "col": 5,
+            "finger": "LI"
         },
-        "u": {
+        "e": {
             "row": 2,
             "col": 7,
+            "finger": "RI"
+        },
+        "^": {
+            "row": 2,
+            "col": 8,
+            "finger": "RI"
+        },
+        "o": {
+            "row": 2,
+            "col": 9,
             "finger": "RM"
         }
     }
