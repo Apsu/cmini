@@ -143,19 +143,29 @@
             "col": 9,
             "finger": "RP"
         },
-        ",": {
+        "!": {
             "row": 3,
             "col": 0,
             "finger": "RT"
         },
-        ".": {
+        ",": {
             "row": 3,
             "col": 1,
             "finger": "RT"
         },
-        ";": {
+        ".": {
             "row": 3,
             "col": 2,
+            "finger": "RT"
+        },
+        ";": {
+            "row": 3,
+            "col": 3,
+            "finger": "RT"
+        },
+        "-": {
+            "row": 3,
+            "col": 4,
             "finger": "RT"
         }
     }

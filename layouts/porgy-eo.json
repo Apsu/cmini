@@ -1,7 +1,7 @@
 {
     "name": "porgy-eo",
     "user": 1179652661033836655,
-    "board": "angle",
+    "board": "ortho",
     "keys": {
         "v": {
             "row": 0,
@@ -103,27 +103,27 @@
             "col": 9,
             "finger": "RP"
         },
-        "j": {
+        "z": {
             "row": 2,
             "col": 0,
+            "finger": "LP"
+        },
+        "j": {
+            "row": 2,
+            "col": 1,
             "finger": "LR"
         },
         "x": {
             "row": 2,
-            "col": 1,
+            "col": 2,
             "finger": "LM"
         },
         "g": {
             "row": 2,
-            "col": 2,
-            "finger": "LI"
-        },
-        "w": {
-            "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "z": {
+        "w": {
             "row": 2,
             "col": 4,
             "finger": "LI"
@@ -138,7 +138,7 @@
             "col": 6,
             "finger": "RI"
         },
-        "-": {
+        ";": {
             "row": 2,
             "col": 7,
             "finger": "RM"

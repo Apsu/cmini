@@ -1,7 +1,7 @@
 {
     "name": "redshift",
     "user": 1297727520518705184,
-    "board": "ortho",
+    "board": "stagger",
     "keys": {
         "b": {
             "row": 0,
@@ -48,9 +48,14 @@
             "col": 8,
             "finger": "RR"
         },
-        "q": {
+        ",": {
             "row": 0,
             "col": 9,
+            "finger": "RR"
+        },
+        ".": {
+            "row": 0,
+            "col": 10,
             "finger": "RP"
         },
         "n": {
@@ -103,11 +108,6 @@
             "col": 9,
             "finger": "RP"
         },
-        "?": {
-            "row": 1,
-            "col": 10,
-            "finger": "RP"
-        },
         "x": {
             "row": 2,
             "col": 0,
@@ -146,16 +146,11 @@
         "-": {
             "row": 2,
             "col": 7,
-            "finger": "RM"
-        },
-        ",": {
-            "row": 2,
-            "col": 8,
             "finger": "RR"
         },
-        ".": {
+        "q": {
             "row": 2,
-            "col": 9,
+            "col": 8,
             "finger": "RP"
         }
     }
