@@ -1,7 +1,7 @@
 {
     "name": "echo",
     "user": 82004107568615424,
-    "board": "ortho",
+    "board": "stagger",
     "keys": {
         "q": {
             "row": 0,
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        ".": {
+        ";": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -101,6 +101,11 @@
         "i": {
             "row": 1,
             "col": 9,
+            "finger": "RP"
+        },
+        ".": {
+            "row": 1,
+            "col": 10,
             "finger": "RP"
         },
         "x": {
