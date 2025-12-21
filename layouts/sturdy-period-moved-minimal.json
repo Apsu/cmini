@@ -1,5 +1,5 @@
 {
-    "name": "sturdy-angle-pinky-k",
+    "name": "sturdy-period-moved-minimal",
     "user": 554549441458077697,
     "board": "angle",
     "keys": {
@@ -53,6 +53,11 @@
             "col": 9,
             "finger": "RP"
         },
+        "-": {
+            "row": 0,
+            "col": 10,
+            "finger": "RP"
+        },
         "s": {
             "row": 1,
             "col": 0,
@@ -78,11 +83,6 @@
             "col": 4,
             "finger": "LI"
         },
-        ".": {
-            "row": 1,
-            "col": 5,
-            "finger": "RI"
-        },
         "n": {
             "row": 1,
             "col": 6,
@@ -103,7 +103,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "-": {
+        ".": {
             "row": 1,
             "col": 10,
             "finger": "RP"
@@ -111,7 +111,7 @@
         "k": {
             "row": 2,
             "col": 0,
-            "finger": "LP"
+            "finger": "LR"
         },
         "q": {
             "row": 2,
