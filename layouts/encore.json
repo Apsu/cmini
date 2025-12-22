@@ -1,9 +1,9 @@
 {
     "name": "encore",
     "user": 82004107568615424,
-    "board": "ortho",
+    "board": "stagger",
     "keys": {
-        "q": {
+        "p": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -28,7 +28,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "x": {
+        "j": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        ",": {
+        ";": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -103,7 +103,12 @@
             "col": 9,
             "finger": "RP"
         },
-        "p": {
+        ".": {
+            "row": 1,
+            "col": 10,
+            "finger": "RP"
+        },
+        "q": {
             "row": 2,
             "col": 0,
             "finger": "LP"
@@ -128,7 +133,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "x": {
             "row": 2,
             "col": 5,
             "finger": "RI"
@@ -148,7 +153,7 @@
             "col": 8,
             "finger": "RR"
         },
-        ".": {
+        ",": {
             "row": 2,
             "col": 9,
             "finger": "RP"
