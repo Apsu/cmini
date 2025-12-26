@@ -108,12 +108,12 @@
             "col": 0,
             "finger": "LP"
         },
-        "j": {
+        "x": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "x": {
+        "j": {
             "row": 2,
             "col": 2,
             "finger": "LM"
@@ -138,12 +138,12 @@
             "col": 6,
             "finger": "RI"
         },
-        ".": {
+        ",": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        ",": {
+        ".": {
             "row": 2,
             "col": 8,
             "finger": "RR"
