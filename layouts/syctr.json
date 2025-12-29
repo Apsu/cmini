@@ -1,89 +1,39 @@
 {
-    "name": "4collies",
+    "name": "syctr",
     "user": 668065238070984744,
     "board": "ortho",
     "keys": {
-        "b": {
-            "row": 0,
-            "col": 0,
-            "finger": "LP"
-        },
-        "f": {
-            "row": 0,
+        "y": {
+            "row": 1,
             "col": 1,
             "finger": "LR"
         },
         "d": {
-            "row": 0,
+            "row": 1,
             "col": 2,
             "finger": "LM"
         },
-        "m": {
-            "row": 0,
+        "l": {
+            "row": 1,
             "col": 3,
             "finger": "LI"
-        },
-        "l": {
-            "row": 0,
-            "col": 6,
-            "finger": "RI"
-        },
-        "u": {
-            "row": 0,
-            "col": 7,
-            "finger": "RM"
-        },
-        "o": {
-            "row": 0,
-            "col": 8,
-            "finger": "RR"
-        },
-        "y": {
-            "row": 0,
-            "col": 9,
-            "finger": "RP"
         },
         "n": {
             "row": 1,
-            "col": 0,
-            "finger": "LP"
-        },
-        "s": {
-            "row": 1,
-            "col": 1,
-            "finger": "LR"
-        },
-        "t": {
-            "row": 1,
-            "col": 2,
-            "finger": "LM"
-        },
-        "g": {
-            "row": 1,
-            "col": 3,
-            "finger": "LI"
-        },
-        "r": {
-            "row": 1,
             "col": 6,
             "finger": "RI"
         },
-        "e": {
+        "o": {
             "row": 1,
             "col": 7,
             "finger": "RM"
         },
-        "a": {
+        "u": {
             "row": 1,
             "col": 8,
             "finger": "RR"
         },
-        "i": {
-            "row": 1,
-            "col": 9,
-            "finger": "RP"
-        },
-        "p": {
+        "s": {
             "row": 2,
             "col": 0,
             "finger": "LP"
@@ -93,12 +43,12 @@
             "col": 1,
             "finger": "LR"
         },
-        "k": {
+        "t": {
             "row": 2,
             "col": 2,
             "finger": "LM"
         },
-        "w": {
+        "r": {
             "row": 2,
             "col": 3,
             "finger": "LI"
@@ -108,17 +58,17 @@
             "col": 6,
             "finger": "RI"
         },
-        "z": {
+        "a": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "x": {
+        "i": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        "j": {
+        "e": {
             "row": 2,
             "col": 9,
             "finger": "RP"
