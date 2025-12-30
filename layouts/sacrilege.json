@@ -43,17 +43,17 @@
             "col": 14,
             "finger": "RP"
         },
-        "k": {
+        "b": {
             "row": 1,
             "col": 15,
             "finger": "RP"
         },
-        "p": {
+        "k": {
             "row": 1,
             "col": 18,
             "finger": "RP"
         },
-        "j": {
+        "q": {
             "row": 1,
             "col": 19,
             "finger": "RP"
@@ -118,12 +118,12 @@
             "col": 14,
             "finger": "RP"
         },
-        "b": {
+        "p": {
             "row": 2,
             "col": 15,
             "finger": "RP"
         },
-        "q": {
+        "j": {
             "row": 2,
             "col": 18,
             "finger": "RP"
