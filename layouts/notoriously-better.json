@@ -1,24 +1,24 @@
 {
-    "name": "colemak-if-it-were-good",
+    "name": "notoriously-better",
     "user": 1297727520518705184,
     "board": "stagger",
     "keys": {
-        "x": {
+        "b": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "g": {
+        "m": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "f": {
+        "l": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "y": {
+        "w": {
             "row": 0,
             "col": 3,
             "finger": "LM"
@@ -28,12 +28,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "'": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "k": {
+        "f": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -58,37 +58,37 @@
             "col": 10,
             "finger": "RP"
         },
-        "r": {
+        "n": {
             "row": 1,
             "col": 0,
             "finger": "LP"
         },
-        "c": {
+        "t": {
             "row": 1,
             "col": 1,
             "finger": "LR"
         },
-        "s": {
+        "r": {
             "row": 1,
             "col": 2,
             "finger": "LM"
         },
-        "t": {
+        "s": {
             "row": 1,
             "col": 3,
             "finger": "LI"
         },
-        "b": {
+        "y": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "m": {
+        "d": {
             "row": 1,
             "col": 5,
             "finger": "RI"
         },
-        "n": {
+        "h": {
             "row": 1,
             "col": 6,
             "finger": "RI"
@@ -108,22 +108,22 @@
             "col": 9,
             "finger": "RP"
         },
-        "'": {
+        "x": {
             "row": 2,
             "col": 0,
-            "finger": "LR"
+            "finger": "LP"
         },
-        "w": {
+        "j": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "d": {
+        "g": {
             "row": 2,
             "col": 2,
             "finger": "LI"
         },
-        "p": {
+        "c": {
             "row": 2,
             "col": 3,
             "finger": "LI"
@@ -133,12 +133,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "l": {
+        "p": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "h": {
+        "k": {
             "row": 2,
             "col": 6,
             "finger": "RI"
