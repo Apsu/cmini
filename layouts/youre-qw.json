@@ -6,7 +6,7 @@
         "y": {
             "row": 0,
             "col": 0,
-            "finger": "LP"
+            "finger": "LR"
         },
         "o": {
             "row": 0,
@@ -51,17 +51,17 @@
         ".": {
             "row": 0,
             "col": 9,
-            "finger": "RP"
+            "finger": "RR"
         },
         "-": {
             "row": 0,
             "col": 10,
-            "finger": "RP"
+            "finger": "RM"
         },
         "\\": {
             "row": 0,
             "col": 11,
-            "finger": "RP"
+            "finger": "RR"
         },
         "i": {
             "row": 1,
@@ -111,17 +111,17 @@
         "c": {
             "row": 1,
             "col": 9,
-            "finger": "RP"
+            "finger": "RR"
         },
         "'": {
             "row": 1,
             "col": 10,
-            "finger": "RP"
+            "finger": "RR"
         },
         "j": {
             "row": 2,
             "col": 0,
-            "finger": "LP"
+            "finger": "LR"
         },
         "/": {
             "row": 2,
