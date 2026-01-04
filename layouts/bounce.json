@@ -8,17 +8,17 @@
             "col": 0,
             "finger": "LP"
         },
-        "c": {
+        "p": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "m": {
+        "d": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "d": {
+        "m": {
             "row": 0,
             "col": 3,
             "finger": "LI"
@@ -28,12 +28,12 @@
             "col": 4,
             "finger": "LI"
         },
-        "q": {
+        "j": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "p": {
+        "g": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -58,7 +58,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "y": {
+        "n": {
             "row": 1,
             "col": 1,
             "finger": "LR"
@@ -83,7 +83,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "n": {
+        "y": {
             "row": 1,
             "col": 6,
             "finger": "RI"
@@ -108,12 +108,12 @@
             "col": 0,
             "finger": "LP"
         },
-        "w": {
+        "b": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "g": {
+        "w": {
             "row": 2,
             "col": 2,
             "finger": "LM"
@@ -123,7 +123,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "j": {
+        "q": {
             "row": 2,
             "col": 4,
             "finger": "LI"
@@ -133,7 +133,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "b": {
+        "c": {
             "row": 2,
             "col": 6,
             "finger": "RI"
@@ -153,12 +153,12 @@
             "col": 9,
             "finger": "RP"
         },
-        "l": {
+        "r": {
             "row": 3,
             "col": 0,
             "finger": "LT"
         },
-        "r": {
+        "l": {
             "row": 3,
             "col": 1,
             "finger": "LT"
