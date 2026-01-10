@@ -28,7 +28,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "q": {
+        "z": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -108,7 +108,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "z": {
+        "'": {
             "row": 2,
             "col": 0,
             "finger": "LP"
@@ -148,7 +148,7 @@
             "col": 7,
             "finger": "RR"
         },
-        "'": {
+        "?": {
             "row": 2,
             "col": 8,
             "finger": "RP"

@@ -23,17 +23,17 @@
             "col": 3,
             "finger": "LI"
         },
-        "g": {
+        "x": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "b": {
+        "'": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "m": {
+        "f": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -123,17 +123,17 @@
             "col": 3,
             "finger": "LI"
         },
-        "x": {
+        "g": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "'": {
+        "b": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "f": {
+        "m": {
             "row": 2,
             "col": 6,
             "finger": "RI"
