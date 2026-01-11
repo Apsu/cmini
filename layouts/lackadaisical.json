@@ -3,12 +3,12 @@
     "user": 1297727520518705184,
     "board": "stagger",
     "keys": {
-        "'": {
+        "z": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "-": {
+        "j": {
             "row": 0,
             "col": 1,
             "finger": "LR"
@@ -108,12 +108,12 @@
             "col": 9,
             "finger": "RP"
         },
-        "z": {
+        "'": {
             "row": 2,
             "col": 0,
             "finger": "LP"
         },
-        "j": {
+        "-": {
             "row": 2,
             "col": 1,
             "finger": "LR"
