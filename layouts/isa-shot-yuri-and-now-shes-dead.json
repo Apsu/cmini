@@ -1,0 +1,157 @@
+{
+    "name": "isa-shot-yuri-and-now-shes-dead",
+    "user": 1297727520518705184,
+    "board": "ortho",
+    "keys": {
+        "f": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "l": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "a": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "d": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "v": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "'": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "c": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "e": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "n": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        ",": {
+            "row": 0,
+            "col": 9,
+            "finger": "RP"
+        },
+        "s": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "h": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "o": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "t": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "b": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "p": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "y": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "u": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "r": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "i": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "z": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "x": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "q": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "m": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "k": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "w": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        "g": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "/": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        },
+        "j": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
+        },
+        ".": {
+            "row": 2,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}
