@@ -1,1 +1,1 @@
-ADMINS = ['eve', '<3']
+ADMINS = ['eve', '<3', 'xsznix', 'oxey', 'flarefin', 'kyrime', 'desshaw']

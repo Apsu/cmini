@@ -27,10 +27,19 @@ def exec(message: Message):
         if ll.user == id:
             layouts.append(ll.name)
 
-    lines += list(sorted(layouts))
+    sorted_layouts = list(sorted(layouts))
+
+    if len(sorted_layouts) > 100:
+        lines += sorted_layouts[:100]
+        lines.append(f'... ({len(sorted_layouts) - 100} more)')
+    else:
+        lines += sorted_layouts
     lines.append('```')
 
-    return '\n'.join(lines)
+    body = '\n'.join(lines)
+    print(f"Body: {len(body)}, Lines: {len(lines)}")
+
+    return body
 
 
 def use():
