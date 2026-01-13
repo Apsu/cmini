@@ -3,62 +3,62 @@
     "user": 333362365292740609,
     "board": "ortho",
     "keys": {
-        "|": {
+        "#": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "#": {
+        "_": {
             "row": 0,
             "col": 1,
-            "finger": "LP"
+            "finger": "LR"
         },
         "t": {
             "row": 0,
             "col": 2,
-            "finger": "LR"
+            "finger": "LM"
         },
         "p": {
             "row": 0,
             "col": 3,
-            "finger": "LM"
+            "finger": "LI"
         },
         "h": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "%": {
+        "\u2731": {
             "row": 0,
             "col": 5,
-            "finger": "LI"
+            "finger": "RI"
         },
-        "d": {
+        "^": {
             "row": 0,
             "col": 7,
-            "finger": "RI"
+            "finger": "RM"
         },
         "l": {
             "row": 0,
             "col": 8,
-            "finger": "RI"
+            "finger": "RR"
         },
         "\ud835\ude99": {
             "row": 0,
             "col": 9,
-            "finger": "RM"
+            "finger": "RP"
         },
         "f": {
             "row": 0,
             "col": 10,
-            "finger": "RR"
+            "finger": "RP"
         },
         "\ud835\ude9d": {
             "row": 0,
             "col": 11,
             "finger": "RP"
         },
-        "z": {
+        "e": {
             "row": 0,
             "col": 12,
             "finger": "RP"
@@ -66,17 +66,17 @@
         "+": {
             "row": 1,
             "col": 1,
-            "finger": "LP"
+            "finger": "LR"
         },
         "s": {
             "row": 1,
             "col": 2,
-            "finger": "LR"
+            "finger": "LM"
         },
         "w": {
             "row": 1,
             "col": 3,
-            "finger": "LM"
+            "finger": "LI"
         },
         "r": {
             "row": 1,
@@ -86,52 +86,42 @@
         "\ud835\ude9b": {
             "row": 1,
             "col": 8,
-            "finger": "RI"
+            "finger": "RR"
         },
         "k": {
             "row": 1,
             "col": 9,
-            "finger": "RM"
+            "finger": "RP"
         },
         "\ud835\ude9c": {
             "row": 1,
             "col": 10,
-            "finger": "RR"
+            "finger": "RP"
         },
         "*": {
             "row": 1,
             "col": 11,
             "finger": "RP"
         },
-        "u": {
-            "row": 2,
-            "col": 3,
-            "finger": "LM"
-        },
         "a": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "i": {
-            "row": 2,
-            "col": 5,
-            "finger": "LI"
-        },
-        "e": {
-            "row": 2,
-            "col": 7,
-            "finger": "RI"
-        },
-        "^": {
-            "row": 2,
-            "col": 8,
-            "finger": "RI"
-        },
         "o": {
             "row": 2,
-            "col": 9,
+            "col": 5,
+            "finger": "RI"
+        },
+        "i": {
+            "row": 2,
+            "col": 7,
             "finger": "RM"
+        },
+        "u": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
         }
     }
 }
