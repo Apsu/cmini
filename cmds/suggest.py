@@ -10,7 +10,7 @@ def exec(message: Message):
     with open('suggestions.txt', 'a') as f:
         f.write(f'\n{message.author.name}: {suggestion}')
 
-    return 'Received :)'
+    return 'https://tenor.com/view/andersomviolao-gif-12381443319241980618'
 
 def use():
     return 'suggest [message]'
