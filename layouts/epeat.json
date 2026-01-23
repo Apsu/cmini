@@ -18,12 +18,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "g": {
+        "m": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "m": {
+        "w": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -68,12 +68,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "@": {
+        "c": {
             "row": 1,
             "col": 3,
             "finger": "LI"
         },
-        "c": {
+        "@": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -123,7 +123,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "w": {
+        "g": {
             "row": 2,
             "col": 3,
             "finger": "LI"
