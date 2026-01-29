@@ -3,12 +3,12 @@
     "user": 333362365292740609,
     "board": "ortho",
     "keys": {
-        "#": {
+        "_": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "_": {
+        "#": {
             "row": 0,
             "col": 1,
             "finger": "LR"
@@ -28,7 +28,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "\u2731": {
+        "&": {
             "row": 0,
             "col": 5,
             "finger": "RI"
