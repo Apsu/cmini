@@ -1,0 +1,137 @@
+{
+    "name": "babymak-pipis",
+    "user": 554549441458077697,
+    "board": "ortho",
+    "keys": {
+        "d": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "h": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "b": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "m": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "y": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        ",": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "a": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u0430": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "g": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "!": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "?": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "w": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "o": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u043e": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        ".": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "l": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "i": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        ":": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\ua789": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "p": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        "k": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u0440": {
+            "row": 3,
+            "col": 0,
+            "finger": "LT"
+        },
+        "\u0456": {
+            "row": 3,
+            "col": 1,
+            "finger": "LT"
+        },
+        "\u03c1": {
+            "row": 3,
+            "col": 2,
+            "finger": "LT"
+        },
+        "\u00ed": {
+            "row": 3,
+            "col": 3,
+            "finger": "LT"
+        },
+        "s": {
+            "row": 3,
+            "col": 4,
+            "finger": "LT"
+        }
+    }
+}
