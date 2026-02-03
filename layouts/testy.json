@@ -1,0 +1,22 @@
+{
+    "name": "testy",
+    "user": 525231824465690645,
+    "board": "ortho",
+    "keys": {
+        "s": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "t": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "r": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "name": "magic-numpad",
+    "user": 525231824465690645,
+    "board": "ortho",
+    "keys": {
+        "7": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "8": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "9": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "4": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "5": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "6": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "@": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "$": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "#": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "1": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
+        },
+        "2": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        },
+        "3": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "0": {
+            "row": 3,
+            "col": 0,
+            "finger": "LT"
+        }
+    }
+}
