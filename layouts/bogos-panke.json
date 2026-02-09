@@ -1,0 +1,37 @@
+{
+    "name": "bogos-panke",
+    "user": 252155920157507584,
+    "board": "ortho",
+    "keys": {
+        "e": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "b": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "i": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "n": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "t": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "d": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        }
+    }
+}
