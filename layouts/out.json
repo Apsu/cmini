@@ -1,5 +1,5 @@
 {
-    "name": "lands",
+    "name": "out",
     "user": 584442680725995540,
     "board": "ortho",
     "keys": {
@@ -28,7 +28,7 @@
             "col": 4,
             "finger": "LI"
         },
-        ",": {
+        "\\": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -148,7 +148,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "\\": {
+        ",": {
             "row": 2,
             "col": 9,
             "finger": "RP"
