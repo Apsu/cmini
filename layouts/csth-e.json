@@ -3,7 +3,7 @@
     "user": 581630432265895957,
     "board": "ortho",
     "keys": {
-        "p": {
+        "v": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -13,17 +13,17 @@
             "col": 1,
             "finger": "LR"
         },
-        "b": {
+        "m": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "l": {
+        "f": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "k": {
+        "b": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "/": {
+        ";": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -73,12 +73,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "v": {
+        "p": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "x": {
+        "j": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -103,7 +103,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "f": {
+        "z": {
             "row": 2,
             "col": 0,
             "finger": "LP"
@@ -123,17 +123,17 @@
             "col": 3,
             "finger": "LI"
         },
-        "m": {
+        "k": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "x": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        ";": {
+        "l": {
             "row": 2,
             "col": 6,
             "finger": "RI"
@@ -148,7 +148,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "z": {
+        "/": {
             "row": 2,
             "col": 9,
             "finger": "RP"
@@ -156,7 +156,7 @@
         "e": {
             "row": 3,
             "col": 0,
-            "finger": "LT"
+            "finger": "RT"
         }
     }
 }
