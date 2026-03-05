@@ -1,39 +1,39 @@
 {
-    "name": "struck",
-    "user": 584442680725995540,
+    "name": "enthium-14-mirror-mod",
+    "user": 260844740797399050,
     "board": "ortho",
     "keys": {
-        "f": {
+        "z": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "m": {
+        "p": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "l": {
+        "d": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "g": {
+        "l": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "w": {
+        "x": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "'": {
+        "=": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "y": {
+        "q": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -48,9 +48,14 @@
             "col": 8,
             "finger": "RR"
         },
-        ",": {
+        "y": {
             "row": 0,
             "col": 9,
+            "finger": "RP"
+        },
+        "b": {
+            "row": 0,
+            "col": 10,
             "finger": "RP"
         },
         "s": {
@@ -58,32 +63,32 @@
             "col": 0,
             "finger": "LP"
         },
-        "t": {
+        "n": {
             "row": 1,
             "col": 1,
             "finger": "LR"
         },
-        "r": {
+        "t": {
             "row": 1,
             "col": 2,
             "finger": "LM"
         },
-        "d": {
+        "h": {
             "row": 1,
             "col": 3,
             "finger": "LI"
         },
-        "p": {
+        "k": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "b": {
+        "-": {
             "row": 1,
             "col": 5,
             "finger": "RI"
         },
-        "h": {
+        "c": {
             "row": 1,
             "col": 6,
             "finger": "RI"
@@ -103,57 +108,62 @@
             "col": 9,
             "finger": "RP"
         },
-        "z": {
+        "w": {
+            "row": 1,
+            "col": 10,
+            "finger": "RP"
+        },
+        "v": {
             "row": 2,
             "col": 0,
             "finger": "LP"
         },
-        "v": {
+        "f": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "x": {
+        "g": {
             "row": 2,
             "col": 2,
             "finger": "LM"
         },
-        "c": {
+        "m": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "k": {
+        "j": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "/": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "q": {
+        ";": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        ";": {
+        ".": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "/": {
+        ",": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        ".": {
+        "'": {
             "row": 2,
             "col": 9,
             "finger": "RP"
         },
-        "n": {
+        "r": {
             "row": 3,
             "col": 0,
             "finger": "LT"
