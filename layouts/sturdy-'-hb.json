@@ -1,5 +1,5 @@
 {
-    "name": "sturdy-period-moved-bring-down-6",
+    "name": "sturdy-'-hb",
     "user": 554549441458077697,
     "board": "angle",
     "keys": {
@@ -28,7 +28,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "6": {
+        "x": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -51,11 +51,6 @@
         "j": {
             "row": 0,
             "col": 9,
-            "finger": "RP"
-        },
-        "-": {
-            "row": 0,
-            "col": 10,
             "finger": "RP"
         },
         "s": {
@@ -83,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "x": {
+        "'": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -108,7 +103,7 @@
             "col": 9,
             "finger": "RP"
         },
-        ".": {
+        "-": {
             "row": 1,
             "col": 10,
             "finger": "RP"
@@ -138,17 +133,17 @@
             "col": 4,
             "finger": "LI"
         },
-        "b": {
+        "h": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "h": {
+        "b": {
             "row": 2,
             "col": 6,
             "finger": "RI"
         },
-        "'": {
+        ".": {
             "row": 2,
             "col": 7,
             "finger": "RM"
