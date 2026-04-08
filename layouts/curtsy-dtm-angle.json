@@ -1,5 +1,5 @@
 {
-    "name": "crusty-nova",
+    "name": "curtsy-dtm-angle",
     "user": 554549441458077697,
     "board": "angle",
     "keys": {
@@ -13,17 +13,17 @@
             "col": 1,
             "finger": "LR"
         },
-        "b": {
+        "d": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "p": {
+        "g": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "k": {
+        "v": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -63,12 +63,12 @@
             "col": 1,
             "finger": "LR"
         },
-        "s": {
+        "t": {
             "row": 1,
             "col": 2,
             "finger": "LM"
         },
-        "t": {
+        "s": {
             "row": 1,
             "col": 3,
             "finger": "LI"
@@ -113,17 +113,17 @@
             "col": 0,
             "finger": "LR"
         },
-        "v": {
+        "m": {
             "row": 2,
             "col": 1,
             "finger": "LM"
         },
-        "d": {
+        "p": {
             "row": 2,
             "col": 2,
             "finger": "LI"
         },
-        "g": {
+        "k": {
             "row": 2,
             "col": 3,
             "finger": "LI"
@@ -138,7 +138,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "m": {
+        "b": {
             "row": 2,
             "col": 6,
             "finger": "RI"
