@@ -1,7 +1,7 @@
 {
     "name": "curtsy",
     "user": 554549441458077697,
-    "board": "ortho",
+    "board": "angle",
     "keys": {
         "w": {
             "row": 0,
@@ -18,12 +18,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "g": {
+        "k": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "v": {
+        "q": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -111,24 +111,24 @@
         "z": {
             "row": 2,
             "col": 0,
-            "finger": "LP"
-        },
-        "q": {
-            "row": 2,
-            "col": 1,
             "finger": "LR"
         },
         "m": {
             "row": 2,
-            "col": 2,
+            "col": 1,
             "finger": "LM"
+        },
+        "g": {
+            "row": 2,
+            "col": 2,
+            "finger": "LI"
         },
         "p": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "k": {
+        "v": {
             "row": 2,
             "col": 4,
             "finger": "LI"
