@@ -3,22 +3,22 @@
     "user": 1074951680594038885,
     "board": "ortho",
     "keys": {
-        "j": {
+        "z": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "l": {
+        "q": {
             "row": 0,
             "col": 1,
             "finger": "LR"
         },
-        "d": {
+        "m": {
             "row": 0,
             "col": 2,
             "finger": "LM"
         },
-        "g": {
+        "p": {
             "row": 0,
             "col": 3,
             "finger": "LI"
@@ -28,10 +28,10 @@
             "col": 4,
             "finger": "LI"
         },
-        "w": {
+        "x": {
             "row": 0,
             "col": 5,
-            "finger": "LI"
+            "finger": "RI"
         },
         "f": {
             "row": 0,
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "x": {
+        "j": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -81,7 +81,7 @@
         "'": {
             "row": 1,
             "col": 5,
-            "finger": "LI"
+            "finger": "RI"
         },
         "n": {
             "row": 1,
@@ -108,22 +108,22 @@
             "col": 10,
             "finger": "RP"
         },
-        "q": {
+        "w": {
             "row": 2,
             "col": 0,
             "finger": "LP"
         },
-        "z": {
+        "l": {
             "row": 2,
             "col": 1,
             "finger": "LR"
         },
-        "m": {
+        "d": {
             "row": 2,
             "col": 2,
             "finger": "LM"
         },
-        "p": {
+        "g": {
             "row": 2,
             "col": 3,
             "finger": "LI"
