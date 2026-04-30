@@ -108,7 +108,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "p": {
+        "w": {
             "row": 2,
             "col": 1,
             "finger": "LR"
@@ -158,7 +158,7 @@
             "col": 0,
             "finger": "LT"
         },
-        "w": {
+        "p": {
             "row": 3,
             "col": 1,
             "finger": "LT"
