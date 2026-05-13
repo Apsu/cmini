@@ -1,14 +1,14 @@
 {
-    "name": "sturdy-colstag-fvp",
-    "user": 184412255822020608,
-    "board": "ortho",
+    "name": "osprey",
+    "user": 82004107568615424,
+    "board": "stagger",
     "keys": {
         "f": {
             "row": 0,
             "col": 0,
             "finger": "LP"
         },
-        "m": {
+        "d": {
             "row": 0,
             "col": 1,
             "finger": "LR"
@@ -18,22 +18,22 @@
             "col": 2,
             "finger": "LM"
         },
-        "c": {
+        "m": {
             "row": 0,
             "col": 3,
-            "finger": "LI"
+            "finger": "LM"
         },
         "v": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "j": {
+        "q": {
             "row": 0,
             "col": 5,
             "finger": "RI"
         },
-        "p": {
+        "j": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        ".": {
+        ",": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -68,12 +68,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "d": {
+        "y": {
             "row": 1,
             "col": 3,
             "finger": "LI"
         },
-        "y": {
+        "g": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -113,22 +113,22 @@
             "col": 1,
             "finger": "LR"
         },
-        "q": {
+        "w": {
             "row": 2,
             "col": 2,
-            "finger": "LM"
+            "finger": "LI"
         },
-        "g": {
+        "c": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "w": {
+        "z": {
             "row": 2,
             "col": 4,
             "finger": "LI"
         },
-        "z": {
+        "p": {
             "row": 2,
             "col": 5,
             "finger": "RI"
@@ -143,12 +143,12 @@
             "col": 7,
             "finger": "RM"
         },
-        "/": {
+        ";": {
             "row": 2,
             "col": 8,
             "finger": "RR"
         },
-        ",": {
+        ".": {
             "row": 2,
             "col": 9,
             "finger": "RP"
