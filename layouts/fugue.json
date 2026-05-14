@@ -18,7 +18,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "k": {
+        "y": {
             "row": 0,
             "col": 3,
             "finger": "LI"
@@ -78,7 +78,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "p": {
+        "k": {
             "row": 1,
             "col": 4,
             "finger": "LI"
@@ -133,7 +133,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "\u0233": {
+        "\u1e55": {
             "row": 2,
             "col": 4,
             "finger": "RI"
