@@ -3,7 +3,7 @@
     "user": 82004107568615424,
     "board": "stagger",
     "keys": {
-        "f": {
+        "x": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -108,7 +108,7 @@
             "col": 10,
             "finger": "RP"
         },
-        "x": {
+        "f": {
             "row": 2,
             "col": 0,
             "finger": "LP"
