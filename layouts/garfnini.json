@@ -1,0 +1,47 @@
+{
+    "name": "garfnini",
+    "user": 584442680725995540,
+    "board": "stagger",
+    "keys": {
+        "g": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "a": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "r": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "f": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "n": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "i": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u00f1": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u00ef": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}
