@@ -1,0 +1,47 @@
+{
+    "name": "teapot",
+    "user": 381846831916908544,
+    "board": "ortho",
+    "keys": {
+        "r": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "t": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "e": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "a": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "n": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "o": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "s": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "i": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        }
+    }
+}
