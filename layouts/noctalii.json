@@ -1,5 +1,5 @@
 {
-    "name": "noctali",
+    "name": "noctalii",
     "user": 246494546224087040,
     "board": "stagger",
     "keys": {
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "m": {
+        "\\": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -103,6 +103,11 @@
             "col": 9,
             "finger": "RP"
         },
+        "c": {
+            "row": 1,
+            "col": 10,
+            "finger": "RP"
+        },
         "v": {
             "row": 2,
             "col": 0,
@@ -148,7 +153,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "\\": {
+        "m": {
             "row": 2,
             "col": 9,
             "finger": "RP"
