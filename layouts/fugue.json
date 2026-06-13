@@ -98,12 +98,12 @@
             "col": 7,
             "finger": "RM"
         },
-        "c": {
+        "t": {
             "row": 1,
             "col": 8,
             "finger": "RR"
         },
-        "t": {
+        "c": {
             "row": 1,
             "col": 9,
             "finger": "RP"
