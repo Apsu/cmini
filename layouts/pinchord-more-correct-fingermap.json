@@ -1,0 +1,127 @@
+{
+    "name": "pinchord-more-correct-fingermap",
+    "user": 554549441458077697,
+    "board": "ortho",
+    "keys": {
+        "_": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "#": {
+            "row": 0,
+            "col": 1,
+            "finger": "LP"
+        },
+        "t": {
+            "row": 0,
+            "col": 2,
+            "finger": "LR"
+        },
+        "p": {
+            "row": 0,
+            "col": 3,
+            "finger": "LM"
+        },
+        "h": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "&": {
+            "row": 0,
+            "col": 5,
+            "finger": "LI"
+        },
+        "^": {
+            "row": 0,
+            "col": 7,
+            "finger": "RI"
+        },
+        "l": {
+            "row": 0,
+            "col": 8,
+            "finger": "RI"
+        },
+        "\ud835\ude99": {
+            "row": 0,
+            "col": 9,
+            "finger": "RM"
+        },
+        "f": {
+            "row": 0,
+            "col": 10,
+            "finger": "RR"
+        },
+        "\ud835\ude9d": {
+            "row": 0,
+            "col": 11,
+            "finger": "RP"
+        },
+        "e": {
+            "row": 0,
+            "col": 12,
+            "finger": "RP"
+        },
+        "+": {
+            "row": 1,
+            "col": 1,
+            "finger": "LP"
+        },
+        "s": {
+            "row": 1,
+            "col": 2,
+            "finger": "LR"
+        },
+        "w": {
+            "row": 1,
+            "col": 3,
+            "finger": "LM"
+        },
+        "r": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\ud835\ude9b": {
+            "row": 1,
+            "col": 8,
+            "finger": "RI"
+        },
+        "k": {
+            "row": 1,
+            "col": 9,
+            "finger": "RM"
+        },
+        "\ud835\ude9c": {
+            "row": 1,
+            "col": 10,
+            "finger": "RR"
+        },
+        "*": {
+            "row": 1,
+            "col": 11,
+            "finger": "RP"
+        },
+        "a": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "o": {
+            "row": 2,
+            "col": 5,
+            "finger": "LI"
+        },
+        "i": {
+            "row": 2,
+            "col": 7,
+            "finger": "RI"
+        },
+        "u": {
+            "row": 2,
+            "col": 8,
+            "finger": "RI"
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "name": "honeypie-bn-but-actually-usable-punc",
+    "name": "honeypie-thumb-e",
     "user": 260844740797399050,
     "board": "ortho",
     "keys": {
@@ -93,12 +93,12 @@
             "col": 7,
             "finger": "RM"
         },
-        "e": {
+        "i": {
             "row": 1,
             "col": 8,
             "finger": "RR"
         },
-        "i": {
+        "*": {
             "row": 1,
             "col": 9,
             "finger": "RP"
@@ -153,7 +153,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "@": {
+        "e": {
             "row": 3,
             "col": 0,
             "finger": "RT"
