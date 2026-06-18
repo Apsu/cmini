@@ -20,9 +20,6 @@ def exec(message: Message):
         size = len(row) - len(row.lstrip())
         spaces.append(size)
 
-    # Subtracting the min prepending space off of each line so the board shape is defined from the relative shape of the input and you can have prepending spaces.
-    spaces = [row - min(spaces) for row in spaces]
-
     # Determine board type with leading whitespace
     if spaces[0] < spaces[1] < spaces[2]:
         board = 'stagger'
