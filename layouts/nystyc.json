@@ -3,7 +3,7 @@
     "user": 525811617473101824,
     "board": "angle",
     "keys": {
-        "y": {
+        "\u0443": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -28,7 +28,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "|": {
+        ";": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -48,7 +48,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "\u0443": {
+        "y": {
             "row": 0,
             "col": 9,
             "finger": "RP"
@@ -138,15 +138,20 @@
             "col": 6,
             "finger": "RI"
         },
-        ".": {
+        ",": {
             "row": 2,
             "col": 7,
             "finger": "RM"
         },
-        "/": {
+        ".": {
             "row": 2,
             "col": 8,
             "finger": "RR"
+        },
+        "/": {
+            "row": 2,
+            "col": 9,
+            "finger": "RP"
         },
         "e": {
             "row": 3,
