@@ -118,12 +118,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "q": {
+        "'": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "'": {
+        "q": {
             "row": 2,
             "col": 4,
             "finger": "LI"
