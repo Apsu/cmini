@@ -3,6 +3,11 @@
     "user": 259380606759206922,
     "board": "ortho",
     "keys": {
+        "z": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
         "q": {
             "row": 0,
             "col": 2,
