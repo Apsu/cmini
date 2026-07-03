@@ -1,0 +1,32 @@
+{
+    "name": "grak",
+    "user": 259380606759206922,
+    "board": "ortho",
+    "keys": {
+        "t": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "a": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "k": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "e": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "n": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        }
+    }
+}

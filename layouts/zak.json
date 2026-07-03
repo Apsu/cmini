@@ -1,0 +1,32 @@
+{
+    "name": "zak",
+    "user": 383900587877597186,
+    "board": "ortho",
+    "keys": {
+        "t": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "a": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "k": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "e": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "n": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        }
+    }
+}
