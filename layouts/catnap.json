@@ -13,6 +13,11 @@
             "col": 2,
             "finger": "LM"
         },
+        "\u21ec": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
         "p": {
             "row": 0,
             "col": 4,
@@ -21,6 +26,11 @@
         "x": {
             "row": 0,
             "col": 5,
+            "finger": "RI"
+        },
+        "\u21eb": {
+            "row": 0,
+            "col": 6,
             "finger": "RI"
         },
         "j": {
@@ -48,7 +58,7 @@
             "col": 2,
             "finger": "LM"
         },
-        "*": {
+        "@": {
             "row": 1,
             "col": 3,
             "finger": "LI"
