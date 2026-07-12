@@ -1,6 +1,6 @@
 {
-    "name": "graphium-30",
-    "user": 260844740797399050,
+    "name": "gralmak-letters",
+    "user": 409742945294483456,
     "board": "ortho",
     "keys": {
         "b": {
@@ -23,12 +23,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "g": {
+        "q": {
             "row": 0,
             "col": 4,
             "finger": "LI"
         },
-        "y": {
+        "j": {
             "row": 0,
             "col": 5,
             "finger": "RI"
@@ -47,11 +47,6 @@
             "row": 0,
             "col": 8,
             "finger": "RR"
-        },
-        "j": {
-            "row": 0,
-            "col": 9,
-            "finger": "RP"
         },
         "n": {
             "row": 1,
@@ -73,12 +68,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "v": {
+        "g": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "k": {
+        "y": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -103,6 +98,11 @@
             "col": 9,
             "finger": "RP"
         },
+        "z": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
         "x": {
             "row": 2,
             "col": 1,
@@ -118,20 +118,20 @@
             "col": 3,
             "finger": "LI"
         },
+        "v": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "k": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
         "p": {
             "row": 2,
             "col": 6,
             "finger": "RI"
-        },
-        ".": {
-            "row": 2,
-            "col": 7,
-            "finger": "RM"
-        },
-        ",": {
-            "row": 2,
-            "col": 8,
-            "finger": "RR"
         }
     }
 }
