@@ -148,7 +148,7 @@
             "col": 8,
             "finger": "RR"
         },
-        "/": {
+        "'": {
             "row": 2,
             "col": 9,
             "finger": "RP"
@@ -156,6 +156,11 @@
         "e": {
             "row": 3,
             "col": 0,
+            "finger": "RT"
+        },
+        "/": {
+            "row": 3,
+            "col": 1,
             "finger": "RT"
         }
     }
