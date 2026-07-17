@@ -1,0 +1,77 @@
+{
+    "name": "get-mogged",
+    "user": 584442680725995540,
+    "board": "stagger",
+    "keys": {
+        "[": {
+            "row": 0,
+            "col": 10,
+            "finger": "RP"
+        },
+        "]": {
+            "row": 0,
+            "col": 11,
+            "finger": "RP"
+        },
+        "\\": {
+            "row": 0,
+            "col": 12,
+            "finger": "RP"
+        },
+        "!": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "c": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "m": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "i": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u00f1": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u00ed": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        ";": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "'": {
+            "row": 1,
+            "col": 10,
+            "finger": "RP"
+        },
+        ",": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        },
+        ".": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
+        },
+        "/": {
+            "row": 2,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}
