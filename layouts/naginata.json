@@ -1,0 +1,142 @@
+{
+    "name": "naginata",
+    "user": 748479664023928843,
+    "board": "ortho",
+    "keys": {
+        "\u5c0f": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u304d": {
+            "row": 0,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u3066": {
+            "row": 0,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u3057": {
+            "row": 0,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u308b": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u3059": {
+            "row": 0,
+            "col": 9,
+            "finger": "RP"
+        },
+        "\u3078": {
+            "row": 0,
+            "col": 10,
+            "finger": "RP"
+        },
+        "\u308d": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u3051": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u3068": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u304b": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u3063": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u304f": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u3042": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u3044": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u3046": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u30fc": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "\u307b": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u3072": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u306f": {
+            "row": 2,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u3053": {
+            "row": 2,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u305d": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u305f": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u306a": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u3093": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u3089": {
+            "row": 2,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u308c": {
+            "row": 2,
+            "col": 9,
+            "finger": "RP"
+        }
+    }
+}
