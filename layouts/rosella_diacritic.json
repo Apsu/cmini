@@ -1,0 +1,72 @@
+{
+    "name": "rosella_diacritic",
+    "user": 761732338744557568,
+    "board": "ortho",
+    "keys": {
+        "\u00eb": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u00f9": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u00e0": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u00ea": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u00f4": {
+            "row": 0,
+            "col": 9,
+            "finger": "RP"
+        },
+        "\u00e2": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u00e7": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u00e9": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u00ef": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u00e8": {
+            "row": 1,
+            "col": 9,
+            "finger": "RP"
+        },
+        "\u00ee": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u00fb": {
+            "row": 2,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u00fc": {
+            "row": 2,
+            "col": 7,
+            "finger": "RM"
+        }
+    }
+}
