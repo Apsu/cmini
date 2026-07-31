@@ -1,5 +1,5 @@
 {
-    "name": "kunten",
+    "name": "cherry",
     "user": 226128695377526784,
     "board": "angle",
     "keys": {
@@ -18,12 +18,12 @@
             "col": 2,
             "finger": "LM"
         },
-        "d": {
+        "b": {
             "row": 0,
             "col": 3,
             "finger": "LI"
         },
-        "q": {
+        "k": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -33,7 +33,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "w": {
+        "p": {
             "row": 0,
             "col": 6,
             "finger": "RI"
@@ -58,7 +58,7 @@
             "col": 0,
             "finger": "LP"
         },
-        "s": {
+        "n": {
             "row": 1,
             "col": 1,
             "finger": "LR"
@@ -73,12 +73,12 @@
             "col": 3,
             "finger": "LI"
         },
-        "b": {
+        "d": {
             "row": 1,
             "col": 4,
             "finger": "LI"
         },
-        "g": {
+        "w": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -118,22 +118,27 @@
             "col": 1,
             "finger": "LM"
         },
-        "f": {
+        "y": {
             "row": 2,
             "col": 2,
             "finger": "LI"
         },
-        "k": {
+        "f": {
             "row": 2,
             "col": 3,
             "finger": "LI"
         },
-        "p": {
+        "q": {
+            "row": 2,
+            "col": 4,
+            "finger": "LI"
+        },
+        "g": {
             "row": 2,
             "col": 5,
             "finger": "RI"
         },
-        "y": {
+        "\u0443": {
             "row": 2,
             "col": 6,
             "finger": "RI"
@@ -153,7 +158,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "n": {
+        "s": {
             "row": 3,
             "col": 0,
             "finger": "RT"
