@@ -1,5 +1,5 @@
 {
-    "name": "tomatoy",
+    "name": "tomato-no-y",
     "user": 226128695377526784,
     "board": "angle",
     "keys": {
@@ -23,7 +23,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "w": {
+        "q": {
             "row": 0,
             "col": 4,
             "finger": "LI"
@@ -78,7 +78,7 @@
             "col": 4,
             "finger": "LI"
         },
-        "\u0443": {
+        "b": {
             "row": 1,
             "col": 5,
             "finger": "RI"
@@ -123,14 +123,9 @@
             "col": 2,
             "finger": "LI"
         },
-        "p": {
+        "w": {
             "row": 2,
             "col": 3,
-            "finger": "LI"
-        },
-        "q": {
-            "row": 2,
-            "col": 4,
             "finger": "LI"
         },
         "k": {
@@ -138,7 +133,7 @@
             "col": 5,
             "finger": "RI"
         },
-        "b": {
+        "p": {
             "row": 2,
             "col": 6,
             "finger": "RI"
