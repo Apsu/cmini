@@ -3,7 +3,7 @@
     "user": 184412255822020608,
     "board": "ortho",
     "keys": {
-        "b": {
+        "a": {
             "row": 0,
             "col": 0,
             "finger": "LP"
@@ -88,7 +88,7 @@
             "col": 6,
             "finger": "RI"
         },
-        "a": {
+        "b": {
             "row": 1,
             "col": 7,
             "finger": "RM"
