@@ -128,6 +128,11 @@
             "col": 4,
             "finger": "LI"
         },
+        ";": {
+            "row": 2,
+            "col": 5,
+            "finger": "RI"
+        },
         ".": {
             "row": 2,
             "col": 6,
@@ -138,7 +143,7 @@
             "col": 7,
             "finger": "RM"
         },
-        ";": {
+        "/": {
             "row": 2,
             "col": 8,
             "finger": "RR"

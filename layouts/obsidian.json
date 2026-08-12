@@ -1,19 +1,19 @@
 {
-    "name": "radiation",
+    "name": "obsidian",
     "user": 226128695377526784,
     "board": "ortho",
     "keys": {
-        "r": {
+        "s": {
             "row": 1,
             "col": 0,
             "finger": "LP"
         },
-        "d": {
+        "t": {
             "row": 1,
             "col": 1,
             "finger": "LR"
         },
-        "t": {
+        "d": {
             "row": 1,
             "col": 2,
             "finger": "LM"
