@@ -103,7 +103,7 @@
             "col": 9,
             "finger": "RP"
         },
-        "q": {
+        "x": {
             "row": 2,
             "col": 0,
             "finger": "LR"
@@ -123,7 +123,7 @@
             "col": 3,
             "finger": "LI"
         },
-        "x": {
+        "q": {
             "row": 2,
             "col": 4,
             "finger": "LP"
