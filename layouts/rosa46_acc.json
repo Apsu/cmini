@@ -1,0 +1,92 @@
+{
+    "name": "rosa46_acc",
+    "user": 424828064988528651,
+    "board": "mini",
+    "keys": {
+        "\u00fa": {
+            "row": 0,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u0153": {
+            "row": 0,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u00f9": {
+            "row": 0,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u00e2": {
+            "row": 0,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u00ea": {
+            "row": 0,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u00f4": {
+            "row": 0,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u00f1": {
+            "row": 1,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u00f3": {
+            "row": 1,
+            "col": 1,
+            "finger": "LR"
+        },
+        "\u00e1": {
+            "row": 1,
+            "col": 2,
+            "finger": "LM"
+        },
+        "\u00ed": {
+            "row": 1,
+            "col": 3,
+            "finger": "LI"
+        },
+        "\u00e7": {
+            "row": 1,
+            "col": 4,
+            "finger": "LI"
+        },
+        "\u00e0": {
+            "row": 1,
+            "col": 5,
+            "finger": "RI"
+        },
+        "\u00e9": {
+            "row": 1,
+            "col": 6,
+            "finger": "RI"
+        },
+        "\u00ee": {
+            "row": 1,
+            "col": 7,
+            "finger": "RM"
+        },
+        "\u00e8": {
+            "row": 1,
+            "col": 8,
+            "finger": "RR"
+        },
+        "\u00ef": {
+            "row": 2,
+            "col": 0,
+            "finger": "LP"
+        },
+        "\u00fb": {
+            "row": 2,
+            "col": 1,
+            "finger": "LR"
+        }
+    }
+}
