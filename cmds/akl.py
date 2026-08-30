@@ -1,74 +1,43 @@
-from discord import Client, Guild
-from typing import Iterable, TypeVar
-
-_VT = TypeVar('_VT')
+from discord import Colour, Client, Guild
 
 AKL_ID = 807843650717483049
 
-LAYOUT_ROLES: list[str] = [
-    'CTGAP',
-    'Workman',
-    'Taipo',
-    'TypeHack',
-    'SIND',
-    'Steno',
-    'Sertain',
-    'Semimak',
-    'RSTHD',
-    'RSI Terminated',
-    'QWERTY',
-    'QGMLWY',
-    'Other (self-made)',
-    'Other',
-    'Nerps',
-    'Neo',
-    'MTGAP',
-    'MessagEase',
-    'ISRT',
-    'Halmak',
-    'Hands Down',
-    'FR-Godox',
-    'Engram',
-    'Dvorak',
-    'Colemak Qi',
-    'ColemaQ',
-    'Colemak DHv',
-    'Colemak DH',
-    'Colemak',
-    'boo'
-    'BÉPO',
-    'BEAKL',
-    'ASETNIOP',
-    'APT',
-    'Canary',
-    'Sturdy',
-    'Nrts Haei',
-    'Recurva',
-]
+LAYOUT_ROLE_COLOUR = Colour.teal()  # 0x1ABC9C
+QWERTY = "QWERTY"
 
-class CaseInsensitiveDict(dict):
-    @classmethod
-    def from_iterable(cls, iterable: Iterable[tuple[str, _VT]]):
-        return cls((k.lower(), i) for (k, i) in iterable)
+class CaseInsensitiveStr:
+    def __init__(self, value):
+        self.value = value
 
-    def __getitem__(self, key: str):
-        return super().__getitem__(key.lower())
+    def __str__(self):
+        return self.value
 
-    def __contains__(self, key: str):
-        return super().__contains__(key.lower())
+    def __format__(self, format_spec):
+        return self.value.__format__(format_spec)
+
+    def __hash__(self):
+        return hash(self.value.lower())
+
+    def __eq__(self, other):
+        if isinstance(other, CaseInsensitiveStr):
+            return self.value.lower() == other.value.lower()
+        elif isinstance(other, str):
+            return self.value.lower() == other.lower()
+        else:
+            return False
 
 def exec(bot: Client):
     guild: Guild = bot.get_guild(AKL_ID)
     if not guild:
         return 'Error: Cannot find akl server'
+    layout_roles = [role for role in guild.roles if role.colour == LAYOUT_ROLE_COLOUR or role.name == QWERTY]
+    role_counts = {CaseInsensitiveStr(role.name): len(role.members) for role in layout_roles}
 
-    roles = guild.roles
-    role_counts: dict[str, int] = CaseInsensitiveDict.from_iterable((role.name, len(role.members)) for role in roles)
-    layout_role_counts: list[tuple[str, int]] = [(layout_role, role_counts[layout_role])
-                                                 for layout_role in LAYOUT_ROLES
-                                                 if layout_role in role_counts]
-
-    layout_role_counts.sort(key=lambda x: x[1], reverse=True)
+    layout_role_counts: list[tuple[CaseInsensitiveStr, int]] = sorted(
+        role_counts.items(),
+        key=lambda x: x[1],
+        reverse=True,
+    )
     layout_role_counts = layout_role_counts[:20]
 
     res = ['```',
