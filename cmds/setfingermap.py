@@ -75,8 +75,6 @@ def board_value(rows):
         size = len(row) - len(row.lstrip())
         spaces.append(size)
 
-    spaces = [row - min(spaces) for row in spaces]
-
     # Determine board type with leading whitespace
     if spaces[0] < spaces[1] < spaces[2]:
         return 'stagger'
